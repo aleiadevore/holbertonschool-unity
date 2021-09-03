@@ -8,7 +8,10 @@ public class PlayerController : MonoBehaviour
     public float jumpHeight = 5.0f;
 
     public float gravity = -10.0f;
+    public GameObject player;
     private Rigidbody rb;
+
+    public Transform spawnPoint;
     //private Vector3 playerVelocity;
 
     public bool isGrounded;
@@ -44,6 +47,9 @@ public class PlayerController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (player.transform.position.y < -10)
+            player.transform.position = spawnPoint.position;
+
         
     }
 
