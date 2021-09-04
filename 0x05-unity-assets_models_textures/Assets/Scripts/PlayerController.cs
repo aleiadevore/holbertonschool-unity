@@ -41,6 +41,8 @@ public class PlayerController : MonoBehaviour
         {
             rb.velocity = new Vector3(Input.GetAxis("Horizontal") * speed, Input.GetAxis("Jump") * jumpHeight, Input.GetAxis("Vertical") * speed);
         }
+        /*else
+            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y * gravity, rb.velocity.z);*/
             
     }
 
@@ -48,7 +50,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         if (player.transform.position.y < -10)
+        {
             player.transform.position = spawnPoint.position;
+            rb.velocity = new Vector3(0, 0, 0);
+        }
 
         
     }
