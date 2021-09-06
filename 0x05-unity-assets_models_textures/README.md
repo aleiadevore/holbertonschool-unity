@@ -1,6 +1,6 @@
-#0x05. Unity - Assets: Models, Textures
+# 0x05. Unity - Assets: Models, Textures
 
-##Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 **General**
@@ -16,3 +16,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - How to create UI elements with image components
 - What is a Rigidbody and what is a Character Controller and what are the pros and cons of using each
 - What is a Quaternion
+
+## Assets
+- Skyboxes: [Farland Skies - Cloudy Crown](https://assetstore.unity.com/packages/2d/textures-materials/sky/farland-skies-cloudy-crown-60004)
+- Models: [Kenney's Nature Pack Extended](https://kenney.nl/assets/nature-pack-extended)

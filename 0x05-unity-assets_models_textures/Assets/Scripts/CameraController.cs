@@ -7,6 +7,12 @@ public class CameraController : MonoBehaviour
     public GameObject player;
     public Transform target;
     private Vector3 target_Offset;
+
+    public float dragSpeed = 2;
+    private Vector3 dragOrigin;
+    private float X;
+    private float Y;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -18,5 +24,19 @@ public class CameraController : MonoBehaviour
     void Update()
     {
         transform.position = Vector3.Lerp(transform.position, target.position+target_Offset, 0.1f);
+
+        if (Input.GetMouseButtonDown(0))
+        {
+            transform.Rotate(new Vector3(Input.GetAxis("Mouse Y") * dragSpeed, -Input.GetAxis("Mouse X") * dragSpeed, 0));
+            return;
+        }
+        //if (!Input.GetMouseButton(0)) return;
+        X = transform.rotation.eulerAngles.x;
+        Y = transform.rotation.eulerAngles.y;
+        transform.rotation = Quaternion.Euler(X, Y, 0);
+
+        /*Vector3 pos = Camera.main.ScreenToViewportPoint(Input.mousePosition - dragOrigin);
+        Vector3 move = new Vector3(pos.x * dragSpeed, 0, pos.y * dragSpeed);
+        transform.Rotate(move, Space.World);*/
     }
 }
