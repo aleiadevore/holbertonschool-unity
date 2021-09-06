@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public Text healthText;
     public Image winLoseBG;
     public Text winLoseText;
+    public Button menuB;
     private Rigidbody rb;
     private int score = 0;
 
@@ -24,6 +25,8 @@ public class PlayerController : MonoBehaviour
     {
         //controller = gameObject.AddComponent<CharacterController>();
         rb = GetComponent<Rigidbody>();
+        Button MenuButton = menuB.GetComponent<Button>();
+        MenuButton.onClick.AddListener(loadMenu);
     }
 
     /// <summary>handles controller movement</summary>
@@ -37,6 +40,8 @@ public class PlayerController : MonoBehaviour
     ///<summary>Moves game object when keys WASD or arrow keys are pressed</summary>
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+            SceneManager.LoadScene("menu");
         // Checking health before moving
         if (health == 0)
         {
@@ -95,5 +100,10 @@ public class PlayerController : MonoBehaviour
     {
         yield return new WaitForSeconds(seconds);
         SceneManager.LoadScene("maze");
+    }
+
+    public void loadMenu()
+    {
+        SceneManager.LoadScene("menu");
     }
 }
