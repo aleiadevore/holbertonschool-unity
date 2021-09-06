@@ -39,10 +39,7 @@ public class PlayerController : MonoBehaviour
         if (isGrounded == true)
         {
             rb.velocity = new Vector3(Input.GetAxis("Horizontal") * speed, Input.GetAxis("Jump") * jumpHeight, Input.GetAxis("Vertical") * speed);
-        }
-        /*else
-            rb.velocity = new Vector3(rb.velocity.x, rb.velocity.y * gravity, rb.velocity.z);*/
-            
+        }            
     }
 
     // Update is called once per frame
@@ -59,6 +56,7 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionEnter(Collision other)
     {
+        Debug.Log("Enter");
         //Debug.Log("Grounded");
         if (other.gameObject.tag=="Floor")
             isGrounded = true;
@@ -67,6 +65,7 @@ public class PlayerController : MonoBehaviour
 
     void OnCollisionExit(Collision other)
     {
+        Debug.Log("Exit");
         //Debug.Log("Not Grounded");
         if (other.gameObject.tag=="Floor")
             isGrounded = false;
