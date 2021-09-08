@@ -60,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6b911390c5825014e8377183a7837d3f, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,6 +106,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1293029876712600392}
   - component: {fileID: 1925873226565265912}
+  - component: {fileID: 5597948018614148351}
   - component: {fileID: 1925873226565265913}
   - component: {fileID: 7292828519420468114}
   - component: {fileID: 1925873226565265918}
@@ -151,6 +152,20 @@ CharacterController:
   m_SkinWidth: 0.02
   m_MinMoveDistance: 0
   m_Center: {x: 0, y: 0.93, z: 0}
+--- !u!114 &5597948018614148351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925873226565265906}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbaa860a71bbe4764a1fd468a81c1713, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 9133887674108934711, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
+  spawnPoint: {fileID: 0}
 --- !u!114 &1925873226565265913
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,8 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62899f850307741f2a39c98a8b639597, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Actions: {fileID: -944628639613478452, guid: 4419d82f33d36e848b3ed5af4c8da37e,
-    type: 3}
+  m_Actions: {fileID: -944628639613478452, guid: 4419d82f33d36e848b3ed5af4c8da37e, type: 3}
   m_NotificationBehavior: 0
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
