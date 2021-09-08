@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    /*public GameObject player;
+    public GameObject player;
     public Transform spawnPoint;
-    public GameObject cap;*/
+    public GameObject cap;
 
 
     // Start is called before the first frame update
@@ -18,10 +18,9 @@ public class PlayerController : MonoBehaviour
     void Update()
     {     
         //cap.GetComponent<MeshRenderer>().material.color = Color.red;
-        if (transform.position.y < -6)
+        if (player.transform.position.y < -6)
         {
-            transform.position = new Vector3(0, 10, 0);
+            player.transform.position = spawnPoint.position;
         }
     }
-
 }
