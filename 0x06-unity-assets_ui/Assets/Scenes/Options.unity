@@ -2298,7 +2298,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1762108684921141755, guid: 1eaf3584c3dda453891b940e5384d7c0, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1762108684921141755, guid: 1eaf3584c3dda453891b940e5384d7c0, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2306,7 +2306,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1762108684921141755, guid: 1eaf3584c3dda453891b940e5384d7c0, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 1762108684921141755, guid: 1eaf3584c3dda453891b940e5384d7c0, type: 3}
       propertyPath: m_AnchorMin.y
@@ -2314,7 +2314,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1762108684921141755, guid: 1eaf3584c3dda453891b940e5384d7c0, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1136
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1762108684921141755, guid: 1eaf3584c3dda453891b940e5384d7c0, type: 3}
       propertyPath: m_SizeDelta.y
@@ -2391,7 +2391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3273257026340652747, guid: a47da5fd4f8444e3f8b874d87c3f078b, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3273257026340652747, guid: a47da5fd4f8444e3f8b874d87c3f078b, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2399,7 +2399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3273257026340652747, guid: a47da5fd4f8444e3f8b874d87c3f078b, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 3273257026340652747, guid: a47da5fd4f8444e3f8b874d87c3f078b, type: 3}
       propertyPath: m_AnchorMin.y
@@ -2407,7 +2407,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3273257026340652747, guid: a47da5fd4f8444e3f8b874d87c3f078b, type: 3}
       propertyPath: m_SizeDelta.x
-      value: -1136
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 3273257026340652747, guid: a47da5fd4f8444e3f8b874d87c3f078b, type: 3}
       propertyPath: m_SizeDelta.y
