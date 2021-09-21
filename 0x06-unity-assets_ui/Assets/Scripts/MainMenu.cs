@@ -32,4 +32,15 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Level03");
     }
+
+    void Options()
+    {
+        SceneManager.LoadScene("Options");
+    }
+
+    public void Quit()
+    {
+        Debug.Log("Exited");
+        Application.Quit();
+    }
 }
