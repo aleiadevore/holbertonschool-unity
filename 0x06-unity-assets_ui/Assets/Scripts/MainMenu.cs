@@ -17,23 +17,13 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    void LevelOne()
+    public void LevelSelect(int level)
     {
-        Debug.Log("Clicked");
-        SceneManager.LoadScene("Level01");
+        string l = "Level0" + level;
+        SceneManager.LoadScene(l);
     }
 
-    void LevelTwo()
-    {
-        SceneManager.LoadScene("Level02");
-    }
-
-    void LevelThree()
-    {
-        SceneManager.LoadScene("Level03");
-    }
-
-    void Options()
+    public void Options()
     {
         SceneManager.LoadScene("Options");
     }
