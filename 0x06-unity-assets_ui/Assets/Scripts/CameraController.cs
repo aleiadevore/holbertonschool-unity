@@ -8,6 +8,7 @@ public class CameraController : MonoBehaviour
     public Transform target;
     private Vector3 target_Offset;
 
+    public bool isInverted;
     public float dragSpeed = 2;
     private Vector3 dragOrigin;
     private float X;
