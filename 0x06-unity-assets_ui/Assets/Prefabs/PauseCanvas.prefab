@@ -382,6 +382,7 @@ GameObject:
   - component: {fileID: 6001677563608481406}
   - component: {fileID: 6001677563608481407}
   - component: {fileID: 6001677563608481404}
+  - component: {fileID: 7271713399532253127}
   m_Layer: 5
   m_Name: PauseCanvas
   m_TagString: Untagged
@@ -475,6 +476,25 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &7271713399532253127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6001677563608481405}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c5294b504eb74998a0d4805269db188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPaused: 0
+  pauseCanvas: {fileID: 6001677563608481405}
+  resumeButton: {fileID: 6001677563808909602}
+  restartButton: {fileID: 4074155922036230190}
+  menuButton: {fileID: 6001677564724788951}
+  optionsButton: {fileID: 6865127016780064378}
+  SceneName: 
 --- !u!1 &6001677563789386483
 GameObject:
   m_ObjectHideFlags: 0
@@ -1073,3 +1093,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 869169800315843440, guid: d847985599861448eb4e0eb401832977, type: 3}
   m_PrefabInstance: {fileID: 6001677564735362594}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &6865127016780064378 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 869169802028478552, guid: d847985599861448eb4e0eb401832977, type: 3}
+  m_PrefabInstance: {fileID: 6001677564735362594}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
