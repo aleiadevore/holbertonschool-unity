@@ -13,11 +13,15 @@ public class PauseMenu : MonoBehaviour
     public Button menuButton;
     public Button optionsButton;
     public string SceneName;
+    private Timer timeScript;
+
 
     // Start is called before the first frame update
     void Start()
     {
         isPaused = false;
+
+        timeScript = GetComponent<Timer>();
 
         Button ResumeButton = resumeButton.GetComponent<Button>();
         ResumeButton.onClick.AddListener(Resume);
@@ -44,6 +48,8 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Paused");
         isPaused = true;
         pauseCanvas.gameObject.SetActive(true);
+        timeScript.Pause();
+
     }
 
     public void Resume()
@@ -51,6 +57,7 @@ public class PauseMenu : MonoBehaviour
         Debug.Log("Resume");
         isPaused = false;
         pauseCanvas.gameObject.SetActive(false);
+        timeScript.Resume();
     }
 
     public void Restart()

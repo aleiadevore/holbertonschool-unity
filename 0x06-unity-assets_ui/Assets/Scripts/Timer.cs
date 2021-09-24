@@ -11,17 +11,28 @@ public class Timer : MonoBehaviour
     public Text TimerText;
     private float secondsCount = 00.00F;
     private int minutesCount = 0;
+    public bool isPaused = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+    }
+
+    public void Pause()
+    {
+        isPaused = true;
+    }
+
+    public void Resume()
+    {
+        isPaused = false;
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        UpdateTimerUI();
+        if (isPaused == false)
+            UpdateTimerUI();
     }
 
     public void UpdateTimerUI()
