@@ -37,6 +37,10 @@ public class OptionsMenu : MonoBehaviour
     ///<summary>Sets playerPref isInverted to 0 if false or 1 if true</summary>
     Inversion()
     {
+        // Change so that checks if isInverted exists in player prefs
+        // if not, add and set to 0
+        // otherwise, use PlayerPrefs.isInverted instead of bool
+        // isInverted bool should instead be saved on Start for back button
         if (isInverted)
         {
             isInverted = false;
@@ -49,5 +53,10 @@ public class OptionsMenu : MonoBehaviour
             PlayerPrefs.SetInt("isInverted", 1);
             Debug.Log("True");
         }
+    }
+
+    public void Apply()
+    {
+        PlayerPrefs.Save();
     }
 }

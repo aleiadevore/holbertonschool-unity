@@ -1378,8 +1378,33 @@ PrefabInstance:
       propertyPath: spawnPoint
       value: 
       objectReference: {fileID: 174203186}
+    - target: {fileID: 7103595482410329943, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
+      propertyPath: SceneName
+      value: Level01
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103595482410329943, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103595482410329943, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
+      propertyPath: menuButton
+      value: 
+      objectReference: {fileID: 1124023611}
+    - target: {fileID: 7103595482410329943, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
+      propertyPath: resumeButton
+      value: 
+      objectReference: {fileID: 1568075129}
+    - target: {fileID: 7103595482410329943, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
+      propertyPath: optionsButton
+      value: 
+      objectReference: {fileID: 655066843}
+    - target: {fileID: 7103595482410329943, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
+      propertyPath: restartButton
+      value: 
+      objectReference: {fileID: 787349811}
     m_RemovedComponents:
     - {fileID: 5597948018614148351, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
+    - {fileID: 7103595482410329943, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 2553cec8fdb3eb643bbe9f2ec880c472, type: 3}
 --- !u!1001 &281038982
 PrefabInstance:
@@ -3039,6 +3064,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &655066843 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6865127016780064378, guid: 297dc089063a845fb9fa83c8f4b5b9cb, type: 3}
+  m_PrefabInstance: {fileID: 6001677563501825437}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &661657342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3929,6 +3965,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 9ecbf57df6fb0944293a3b91f91f3723, type: 3}
+--- !u!114 &787349811 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4074155922036230190, guid: 297dc089063a845fb9fa83c8f4b5b9cb, type: 3}
+  m_PrefabInstance: {fileID: 6001677563501825437}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &794380643
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4126,6 +4173,25 @@ MonoBehaviour:
   player: {fileID: 805944672}
   spawnPoint: {fileID: 174203186}
   cap: {fileID: 0}
+--- !u!114 &805944681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805944672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c5294b504eb74998a0d4805269db188, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPaused: 0
+  pauseCanvas: {fileID: 1588869637}
+  resumeButton: {fileID: 1568075129}
+  restartButton: {fileID: 787349811}
+  menuButton: {fileID: 1124023611}
+  optionsButton: {fileID: 655066843}
+  SceneName: Level01
 --- !u!1 &822661392 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 798fbd8e40ae08946840d1acddba5cef, type: 3}
@@ -5786,6 +5852,17 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &1124023611 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6001677564724788951, guid: 297dc089063a845fb9fa83c8f4b5b9cb, type: 3}
+  m_PrefabInstance: {fileID: 6001677563501825437}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1171384624 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: c7a59bf400668ca49b2d9ecc3a0771e4, type: 3}
@@ -7686,6 +7763,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfd71611720260346920e9b33e19457a, type: 3}
+--- !u!114 &1568075129 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6001677563808909602, guid: 297dc089063a845fb9fa83c8f4b5b9cb, type: 3}
+  m_PrefabInstance: {fileID: 6001677563501825437}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1584690747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7774,6 +7862,11 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!1 &1588869637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6001677563608481405, guid: 297dc089063a845fb9fa83c8f4b5b9cb, type: 3}
+  m_PrefabInstance: {fileID: 6001677563501825437}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1591491949 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 1e24c8dc43b01ea438c87c80cd05dc74, type: 3}
@@ -8456,6 +8549,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 805944672}
   target: {fileID: 0}
+  isInverted: 0
   dragSpeed: 2
 --- !u!1 &1785023157 stripped
 GameObject:
@@ -10227,5 +10321,6 @@ PrefabInstance:
       propertyPath: SceneName
       value: Level01
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 7271713399532253127, guid: 297dc089063a845fb9fa83c8f4b5b9cb, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 297dc089063a845fb9fa83c8f4b5b9cb, type: 3}

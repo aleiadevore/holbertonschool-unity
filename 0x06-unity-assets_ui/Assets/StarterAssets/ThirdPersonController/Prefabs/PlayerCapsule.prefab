@@ -166,6 +166,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 9133887674108934711, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
   spawnPoint: {fileID: 0}
+  cap: {fileID: 0}
 --- !u!114 &1925873226565265913
 MonoBehaviour:
   m_ObjectHideFlags: 0

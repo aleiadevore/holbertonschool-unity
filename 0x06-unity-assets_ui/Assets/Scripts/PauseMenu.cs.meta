@@ -3,7 +3,12 @@ guid: 5c5294b504eb74998a0d4805269db188
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - pauseCanvas: {fileID: 6001677563608481405, guid: 297dc089063a845fb9fa83c8f4b5b9cb, type: 3}
+  - resumeButton: {instanceID: 0}
+  - restartButton: {instanceID: 0}
+  - menuButton: {instanceID: 0}
+  - optionsButton: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
