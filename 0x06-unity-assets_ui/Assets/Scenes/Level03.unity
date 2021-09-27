@@ -623,6 +623,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4558090583549388759, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8308016400911551194, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 805944672}
+    - target: {fileID: 8308016400911551194, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+      propertyPath: NextScene
+      value: MainMenu
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
 --- !u!1 &78735904
@@ -1132,6 +1144,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dcb55e9abd0bd940aa3529714af2223, type: 3}
+--- !u!114 &218588992 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6642258451515429003, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+  m_PrefabInstance: {fileID: 67976360}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &226366019 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: c3116c6b7bb78d3449c961c366096de5, type: 3}
@@ -2450,6 +2473,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ecbf57df6fb0944293a3b91f91f3723, type: 3}
+--- !u!223 &504341373 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4558090583549388756, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+  m_PrefabInstance: {fileID: 67976360}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &521885670
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4471,6 +4499,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimerText: {fileID: 378155739}
+  isPaused: 0
+  WinText: {fileID: 218588992}
 --- !u!114 &805944680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10798,6 +10828,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 805944672}
   TimerText: {fileID: 378155739}
+  WinCanvas: {fileID: 504341373}
+  timeScript: {fileID: 805944679}
 --- !u!136 &2088225855
 CapsuleCollider:
   m_ObjectHideFlags: 0

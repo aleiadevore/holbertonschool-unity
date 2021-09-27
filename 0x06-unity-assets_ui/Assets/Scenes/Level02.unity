@@ -254,6 +254,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1925873226321033402}
   TimerText: {fileID: 378155739}
+  WinCanvas: {fileID: 1748194948}
+  timeScript: {fileID: 2046678202706318021}
 --- !u!1001 &55957242
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3270,8 +3272,32 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8308016400911551194, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 1925873226321033402}
+    - target: {fileID: 8308016400911551194, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+      propertyPath: NextScene
+      value: Level03
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+--- !u!114 &1748194947 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6642258451515429003, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+  m_PrefabInstance: {fileID: 1748194946}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!223 &1748194948 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4558090583549388756, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+  m_PrefabInstance: {fileID: 1748194946}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1757808943 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100006, guid: 24698ac43c093ad4ea0697f6dd617382, type: 3}
@@ -3962,6 +3988,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2046678203511205795, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
+      propertyPath: WinText
+      value: 
+      objectReference: {fileID: 1748194947}
+    - target: {fileID: 2046678203511205795, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
       propertyPath: TimerText
       value: 
       objectReference: {fileID: 378155739}
@@ -3971,6 +4001,17 @@ PrefabInstance:
       objectReference: {fileID: 174203186}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
+--- !u!114 &2046678202706318021 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2046678203511205795, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
+  m_PrefabInstance: {fileID: 2046678202706318020}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1925873226321033402}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76fadb619ac4c48878068550b84dc637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3311127345627826551
 PrefabInstance:
   m_ObjectHideFlags: 0

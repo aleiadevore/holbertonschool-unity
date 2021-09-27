@@ -477,6 +477,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 805944672}
   TimerText: {fileID: 378155739}
+  WinCanvas: {fileID: 1996879840}
+  timeScript: {fileID: 805944679}
 --- !u!1001 &56687409
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4158,6 +4160,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TimerText: {fileID: 378155739}
+  isPaused: 0
+  WinText: {fileID: 4558090583158413216}
 --- !u!114 &805944680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9548,6 +9552,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1968165425}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!223 &1996879840 stripped
+Canvas:
+  m_CorrespondingSourceObject: {fileID: 4558090583549388756, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+  m_PrefabInstance: {fileID: 4558090583158413215}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2067132197
 GameObject:
   m_ObjectHideFlags: 0
@@ -10212,8 +10221,27 @@ PrefabInstance:
       propertyPath: m_Name
       value: WinCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 8308016400911551194, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 805944672}
+    - target: {fileID: 8308016400911551194, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+      propertyPath: NextScene
+      value: Level02
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+--- !u!114 &4558090583158413216 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6642258451515429003, guid: 03957cb93a8164105bab1144c3f4db6c, type: 3}
+  m_PrefabInstance: {fileID: 4558090583158413215}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6001677563501825437
 PrefabInstance:
   m_ObjectHideFlags: 0
