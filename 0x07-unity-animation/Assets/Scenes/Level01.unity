@@ -1429,7 +1429,7 @@ GameObject:
   - component: {fileID: 248564385}
   - component: {fileID: 248564388}
   m_Layer: 0
-  m_Name: CutSceneCamera
+  m_Name: CutsceneCamera
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
