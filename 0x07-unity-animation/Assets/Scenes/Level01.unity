@@ -7605,7 +7605,7 @@ PrefabInstance:
       objectReference: {fileID: 174203186}
     - target: {fileID: 2930354370644875673, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
       propertyPath: SceneName
-      value: Scene01
+      value: Level01
       objectReference: {fileID: 0}
     - target: {fileID: 2930354370644875673, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
       propertyPath: menuButton
