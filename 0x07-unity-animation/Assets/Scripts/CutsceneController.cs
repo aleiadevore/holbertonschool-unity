@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using StarterAssets;
+using UnityEngine.SceneManagement;
 
 public class CutsceneController : MonoBehaviour
 {
@@ -14,6 +15,10 @@ public class CutsceneController : MonoBehaviour
     void Start()
     {
         cutsceneCamera = GameObject.Find("CutsceneCamera");
+        Scene scene = SceneManager.GetActiveScene();
+        int sceneNumber = scene.buildIndex;
+        animator.SetInteger("Scene", sceneNumber - 1);
+        Debug.Log(animator.GetInteger("Scene"));
     }
 
     // Update is called once per frame

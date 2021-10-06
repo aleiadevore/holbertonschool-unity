@@ -238,7 +238,6 @@ namespace StarterAssets
 				if (_hasAnimator)
 				{
 					_animator.SetBool(_animIDJump, false);
-					Debug.Log("Jump == false");
 					_animator.SetBool(_animIDFreeFall, false);
 				}
 
@@ -258,7 +257,6 @@ namespace StarterAssets
 					if (_hasAnimator)
 					{
 						_animator.SetBool(_animIDJump, true);
-						Debug.Log("Jump == true");
 					}
 				}
 
