@@ -3979,7 +3979,7 @@ PrefabInstance:
       objectReference: {fileID: 174203186}
     - target: {fileID: 2930354370644875673, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
       propertyPath: SceneName
-      value: Scene03
+      value: Level03
       objectReference: {fileID: 0}
     - target: {fileID: 2930354370644875673, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
       propertyPath: menuButton
@@ -8150,15 +8150,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4785113910272237191, guid: 4a97ef786a75346d583de4a3513a4a4a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13
+      value: -46.5
       objectReference: {fileID: 0}
     - target: {fileID: 4785113910272237191, guid: 4a97ef786a75346d583de4a3513a4a4a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 7
+      value: 4.5
       objectReference: {fileID: 0}
     - target: {fileID: 4785113910272237191, guid: 4a97ef786a75346d583de4a3513a4a4a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 77
+      value: 64.4
       objectReference: {fileID: 0}
     - target: {fileID: 4785113910272237191, guid: 4a97ef786a75346d583de4a3513a4a4a, type: 3}
       propertyPath: m_LocalRotation.w
