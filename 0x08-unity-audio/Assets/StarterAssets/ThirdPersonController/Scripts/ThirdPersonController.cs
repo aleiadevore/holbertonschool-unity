@@ -90,6 +90,7 @@ namespace StarterAssets
 		private const float _threshold = 0.01f;
 
 		private bool _hasAnimator;
+		public AudioSource GrassRun;
 
 		private void Awake()
 		{
@@ -120,6 +121,9 @@ namespace StarterAssets
 			JumpAndGravity();
 			GroundedCheck();
 			Move();
+
+			if (_speed > 0.2)
+				GrassRun.Play();
 		}
 
 		private void LateUpdate()
