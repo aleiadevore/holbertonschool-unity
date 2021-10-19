@@ -91,6 +91,8 @@ namespace StarterAssets
 
 		private bool _hasAnimator;
 		public AudioSource GrassRun;
+		public AudioSource StoneRun;
+		public AudioSource audioSource;
 
 		private void Awake()
 		{
@@ -112,6 +114,9 @@ namespace StarterAssets
 			// reset our timeouts on start
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
+
+			// ititial set to stone
+			audioSource = StoneRun;
 		}
 
 		private void Update()
@@ -122,10 +127,34 @@ namespace StarterAssets
 			GroundedCheck();
 			Move();
 
-			if (_speed > 0.2)
-				GrassRun.Play();
 		}
 
+		private void FixedUpdate()
+		{
+			/* Play audio while moving */
+			if (_speed > 0)
+				audioSource.mute = false;
+			else
+				audioSource.mute = true;
+		}
+
+		public void /// <summary>
+		/// Checks whether player is on grass or stone and sets audio accordingly
+		/// </summary>
+		OnCollisionEnter(Collision other)
+		{
+			Debug.Log("Collision");
+			if (other.gameObject.tag == "Grass")
+			{
+				Debug.Log("On grass");
+				audioSource = GrassRun;
+			}
+			else if (other.gameObject.tag == "Stone")
+			{
+				Debug.Log("On stone");
+				audioSource = StoneRun;
+			}
+		}
 		private void LateUpdate()
 		{
 			CameraRotation();
