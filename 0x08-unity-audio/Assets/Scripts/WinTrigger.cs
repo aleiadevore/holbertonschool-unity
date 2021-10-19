@@ -9,6 +9,7 @@ public class WinTrigger : MonoBehaviour
     public Text TimerText;
     public Canvas WinCanvas;
     public Timer timeScript;
+    private AudioSource audioSource;
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +29,8 @@ public class WinTrigger : MonoBehaviour
             //timeScript.Win();
             player.GetComponent<Timer>().Win();
             WinCanvas.gameObject.SetActive(true);
+            audioSource = player.GetComponent<AudioSource>();
+            audioSource.mute = true;
         }
 
     }
