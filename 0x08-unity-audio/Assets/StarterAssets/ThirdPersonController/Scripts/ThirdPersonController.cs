@@ -89,10 +89,13 @@ namespace StarterAssets
 
 		private const float _threshold = 0.01f;
 
+		// Audio variables
 		private bool _hasAnimator;
 		public AudioSource GrassRun;
 		public AudioSource StoneRun;
-		public AudioSource audioSource;
+		public AudioSource runAudio;
+		public AudioSource fallAudio;
+		private bool wasFreeFalling = false;
 
 		private void Awake()
 		{
@@ -115,8 +118,10 @@ namespace StarterAssets
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
 
-			// ititial set to stone
-			audioSource = StoneRun;
+			// ititial set to grass
+			runAudio = GrassRun;
+
+			wasFreeFalling = false;
 		}
 
 		private void Update()
@@ -133,28 +138,13 @@ namespace StarterAssets
 		{
 			/* Play audio while moving */
 			if (_speed > 0)
-				audioSource.mute = false;
+				runAudio.mute = false;
 			else
-				audioSource.mute = true;
+				runAudio.mute = true;
+			/*if (_speed > 0)
+				runAudio.Play();*/
 		}
 
-		public void /// <summary>
-		/// Checks whether player is on grass or stone and sets audio accordingly
-		/// </summary>
-		OnCollisionEnter(Collision other)
-		{
-			Debug.Log("Collision");
-			if (other.gameObject.tag == "Grass")
-			{
-				Debug.Log("On grass");
-				audioSource = GrassRun;
-			}
-			else if (other.gameObject.tag == "Stone")
-			{
-				Debug.Log("On stone");
-				audioSource = StoneRun;
-			}
-		}
 		private void LateUpdate()
 		{
 			CameraRotation();
@@ -272,6 +262,13 @@ namespace StarterAssets
 				{
 					_animator.SetBool(_animIDJump, false);
 					_animator.SetBool(_animIDFreeFall, false);
+
+					// checks if landing from freefall
+					if (wasFreeFalling == true)
+					{
+						wasFreeFalling = false;
+						landingSound();
+					}
 				}
 
 				// stop our velocity dropping infinitely when grounded
@@ -315,6 +312,7 @@ namespace StarterAssets
 					if (_hasAnimator)
 					{
 						_animator.SetBool(_animIDFreeFall, true);
+						wasFreeFalling = true;
 					}
 				}
 
@@ -346,6 +344,11 @@ namespace StarterAssets
 			
 			// when selected, draw a gizmo in the position of, and matching radius of, the grounded collider
 			Gizmos.DrawSphere(new Vector3(transform.position.x, transform.position.y - GroundedOffset, transform.position.z), GroundedRadius);
+		}
+
+		private void landingSound()
+		{
+			fallAudio.Play();
 		}
 	}
 }
