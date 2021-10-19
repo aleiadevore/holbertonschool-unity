@@ -28,6 +28,20 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!244 &-4151511846467523442
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 483cd997aa6b946219423363fdd26f5e
+  m_EffectName: Attenuation
+  m_MixLevel: 2558e1383d2dc4b19b7acdd790ade93e
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!243 &-4050964110280329763
 AudioMixerGroupController:
   m_ObjectHideFlags: 0
@@ -102,6 +116,7 @@ AudioMixerController:
     - 6acabf3e3921444d1a4329c2115a85aa
     - 369fb82c736a3437488a984acae9513c
     - bb2650a1c0a6e4234bb88a9faea4a0b6
+    - 72a1e0bda054c4df98f45ca2480e8b92
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -118,6 +133,7 @@ AudioMixerGroupController:
   - {fileID: 1516614623078194542}
   - {fileID: -963083674282266233}
   - {fileID: -4050964110280329763}
+  - {fileID: 1940767430338964418}
   m_Volume: 9ec6b560bb85e4f60a963a579da22c15
   m_Pitch: 2be90b0504b844205acbc4e45e14622d
   m_Send: 00000000000000000000000000000000
@@ -152,6 +168,7 @@ AudioMixerSnapshotController:
   m_SnapshotID: 516e4a21c7d32401a8fb5893c4d176d7
   m_FloatValues:
     88fe93ab1f1da45169c70b2f3d055c3d: 2
+    61f235ebbd91743258de8c7e16b439e1: 5
     8616387cea2c8433c9ed5e438a887dad: -20
   m_TransitionOverrides: {}
 --- !u!243 &1516614623078194542
@@ -169,6 +186,25 @@ AudioMixerGroupController:
   m_Send: 00000000000000000000000000000000
   m_Effects:
   - {fileID: -4269805367081043212}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
+--- !u!243 &1940767430338964418
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Ambiance
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: 72a1e0bda054c4df98f45ca2480e8b92
+  m_Children: []
+  m_Volume: 61f235ebbd91743258de8c7e16b439e1
+  m_Pitch: 768675c45052542ef805cee462b0925c
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -4151511846467523442}
   m_UserColorIndex: 0
   m_Mute: 0
   m_Solo: 0
