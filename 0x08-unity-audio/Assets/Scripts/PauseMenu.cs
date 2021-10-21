@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using UnityEngine.Audio;
 
 public class PauseMenu : MonoBehaviour
 {
@@ -14,6 +15,8 @@ public class PauseMenu : MonoBehaviour
     public Button optionsButton;
     public string SceneName;
     private Timer timeScript;
+    public AudioMixerSnapshot pausedSnap;
+    public AudioMixerSnapshot unpausedSnap;
 
 
     // Start is called before the first frame update
@@ -49,6 +52,7 @@ public class PauseMenu : MonoBehaviour
         isPaused = true;
         pauseCanvas.gameObject.SetActive(true);
         timeScript.Pause();
+        pausedSnap.TransitionTo(.01f);
 
     }
 
@@ -58,6 +62,7 @@ public class PauseMenu : MonoBehaviour
         isPaused = false;
         pauseCanvas.gameObject.SetActive(false);
         timeScript.Resume();
+        unpausedSnap.TransitionTo(.01f);
     }
 
     public void Restart()

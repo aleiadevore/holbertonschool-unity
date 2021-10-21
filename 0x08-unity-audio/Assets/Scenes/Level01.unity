@@ -4697,6 +4697,8 @@ MonoBehaviour:
   menuButton: {fileID: 1124023611}
   optionsButton: {fileID: 655066843}
   SceneName: Level01
+  pausedSnap: {fileID: 0}
+  unpausedSnap: {fileID: 0}
 --- !u!1 &822661392 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 798fbd8e40ae08946840d1acddba5cef, type: 3}
@@ -8111,6 +8113,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1124023611}
     - target: {fileID: 2930354370644875673, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
+      propertyPath: pausedSnap
+      value: 
+      objectReference: {fileID: 630580050220961672, guid: f80a421f0fcaa45d2a5b054d1fdd952f, type: 2}
+    - target: {fileID: 2930354370644875673, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
       propertyPath: pauseCanvas
       value: 
       objectReference: {fileID: 1588869637}
@@ -8118,6 +8124,10 @@ PrefabInstance:
       propertyPath: resumeButton
       value: 
       objectReference: {fileID: 1568075129}
+    - target: {fileID: 2930354370644875673, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
+      propertyPath: unpausedSnap
+      value: 
+      objectReference: {fileID: 24500006, guid: f80a421f0fcaa45d2a5b054d1fdd952f, type: 2}
     - target: {fileID: 2930354370644875673, guid: df05ebfc5896540b4a0705939722d8f8, type: 3}
       propertyPath: optionsButton
       value: 
