@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
 
 public class OptionsMenu : MonoBehaviour
 {
+    public AudioMixer Mixer;
     public bool isInverted = false;
     // Start is called before the first frame update
     void Start()
@@ -53,6 +55,19 @@ public class OptionsMenu : MonoBehaviour
             PlayerPrefs.SetInt("isInverted", 1);
             Debug.Log("True");
         }
+    }
+
+    public void SetBGM(float sliderValue)
+    {
+        /* sliderValue is a float, but audio is logarithmic. Convert so sound isn't too sensitive */
+        Mixer.SetFloat("BGMVol", Mathf.Log10(sliderValue) * 20);
+    }
+
+    public void SetSFX(float sliderValue)
+    {
+        Mixer.SetFloat("RunningVol", Mathf.Log10(sliderValue) * 20);
+        Mixer.SetFloat("LandingVol", Mathf.Log10(sliderValue) * 20);
+        Mixer.SetFloat("AmbVol", Mathf.Log10(sliderValue) * 20);
     }
 
     public void Apply()

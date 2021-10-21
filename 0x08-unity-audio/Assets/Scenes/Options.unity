@@ -513,13 +513,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 364950841}
   m_HandleRect: {fileID: 415384984}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.00000001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 872224400}
+        m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
+        m_MethodName: SetSFX
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &619160165
 GameObject:
   m_ObjectHideFlags: 0
@@ -907,6 +919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 19293cbec92b2439ca5e67249b5fbcc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Mixer: {fileID: 24100000, guid: f80a421f0fcaa45d2a5b054d1fdd952f, type: 2}
   isInverted: 0
 --- !u!1 &946925219
 GameObject:
@@ -1250,13 +1263,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 1498438461}
   m_HandleRect: {fileID: 1841949892}
   m_Direction: 0
-  m_MinValue: 0
+  m_MinValue: 0.0000001
   m_MaxValue: 1
   m_WholeNumbers: 0
-  m_Value: 0
+  m_Value: 1
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 872224400}
+        m_TargetAssemblyTypeName: OptionsMenu, Assembly-CSharp
+        m_MethodName: SetBGM
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1305730332
 GameObject:
   m_ObjectHideFlags: 0
