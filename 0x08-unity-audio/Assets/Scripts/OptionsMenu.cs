@@ -3,15 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class OptionsMenu : MonoBehaviour
 {
     public AudioMixer Mixer;
     public bool isInverted = false;
+    public Slider BGMslider;
+    public Slider SFXslider;
     // Start is called before the first frame update
     void Start()
     {
-        
+        BGMslider.value = PlayerPrefs.GetFloat("BGMVol");
+        SFXslider.value = PlayerPrefs.GetFloat("SFXVol");
     }
 
     // Update is called once per frame
@@ -61,13 +65,13 @@ public class OptionsMenu : MonoBehaviour
     {
         /* sliderValue is a float, but audio is logarithmic. Convert so sound isn't too sensitive */
         Mixer.SetFloat("BGMVol", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("BGMVol", sliderValue);
     }
 
     public void SetSFX(float sliderValue)
     {
-        Mixer.SetFloat("RunningVol", Mathf.Log10(sliderValue) * 20);
-        Mixer.SetFloat("LandingVol", Mathf.Log10(sliderValue) * 20);
-        Mixer.SetFloat("AmbVol", Mathf.Log10(sliderValue) * 20);
+        Mixer.SetFloat("SFXVol", Mathf.Log10(sliderValue) * 20);
+        PlayerPrefs.SetFloat("SFXVol", sliderValue);
     }
 
     public void Apply()

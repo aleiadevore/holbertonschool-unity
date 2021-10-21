@@ -921,6 +921,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Mixer: {fileID: 24100000, guid: f80a421f0fcaa45d2a5b054d1fdd952f, type: 2}
   isInverted: 0
+  BGMslider: {fileID: 1164671164}
+  SFXslider: {fileID: 553864675}
 --- !u!1 &946925219
 GameObject:
   m_ObjectHideFlags: 0

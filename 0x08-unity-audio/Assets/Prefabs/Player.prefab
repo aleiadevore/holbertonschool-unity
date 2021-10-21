@@ -91,6 +91,10 @@ MonoBehaviour:
   BottomClamp: -30
   CameraAngleOverride: 0
   LockCameraPosition: 0
+  GrassRun: {fileID: 0}
+  StoneRun: {fileID: 0}
+  runAudio: {fileID: 0}
+  fallAudio: {fileID: 0}
 --- !u!114 &8742074142580938782
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -255,6 +259,7 @@ MonoBehaviour:
   player: {fileID: 494641168581438078}
   spawnPoint: {fileID: 0}
   cap: {fileID: 0}
+  Mixer: {fileID: 24100000, guid: f80a421f0fcaa45d2a5b054d1fdd952f, type: 2}
 --- !u!114 &2930354370644875673
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -274,6 +279,8 @@ MonoBehaviour:
   menuButton: {fileID: 0}
   optionsButton: {fileID: 0}
   SceneName: 
+  pausedSnap: {fileID: 0}
+  unpausedSnap: {fileID: 0}
 --- !u!95 &-4802716855273744488
 Animator:
   serializedVersion: 3

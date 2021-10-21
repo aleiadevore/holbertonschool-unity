@@ -1,5 +1,19 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!244 &-8164144482741994658
+AudioMixerEffectController:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_EffectID: 94000c5fd4ccb4857b1779077ad88105
+  m_EffectName: Attenuation
+  m_MixLevel: d17a289dcb2e2459ab30440c25a2bbea
+  m_Parameters: []
+  m_SendTarget: {fileID: 0}
+  m_EnableWetMix: 0
+  m_Bypass: 0
 --- !u!244 &-6316875871902233964
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -93,6 +107,28 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: 0}
   m_EnableWetMix: 0
   m_Bypass: 0
+--- !u!243 &-3329439553625312997
+AudioMixerGroupController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SFX
+  m_AudioMixer: {fileID: 24100000}
+  m_GroupID: bce271ae8135d4e448b006473d4de4b6
+  m_Children:
+  - {fileID: -963083674282266233}
+  - {fileID: -4050964110280329763}
+  - {fileID: 1940767430338964418}
+  m_Volume: cd1b9a150d8f3468dadf5b2dd5ac98ab
+  m_Pitch: 75f4bade7b9614febb7f2e79581e934b
+  m_Send: 00000000000000000000000000000000
+  m_Effects:
+  - {fileID: -8164144482741994658}
+  m_UserColorIndex: 0
+  m_Mute: 0
+  m_Solo: 0
+  m_BypassEffects: 0
 --- !u!244 &-2987591390262558957
 AudioMixerEffectController:
   m_ObjectHideFlags: 3
@@ -156,6 +192,8 @@ AudioMixerController:
     name: LandingVol
   - guid: 8616387cea2c8433c9ed5e438a887dad
     name: RunningVol
+  - guid: cd1b9a150d8f3468dadf5b2dd5ac98ab
+    name: SFXVol
   m_AudioMixerGroupViews:
   - guids:
     - 631e1c0ac8ca444d2bdc63e337ad37a5
@@ -163,6 +201,7 @@ AudioMixerController:
     - 369fb82c736a3437488a984acae9513c
     - bb2650a1c0a6e4234bb88a9faea4a0b6
     - 72a1e0bda054c4df98f45ca2480e8b92
+    - bce271ae8135d4e448b006473d4de4b6
     name: View
   m_CurrentViewIndex: 0
   m_TargetSnapshot: {fileID: 24500006}
@@ -177,9 +216,7 @@ AudioMixerGroupController:
   m_GroupID: 631e1c0ac8ca444d2bdc63e337ad37a5
   m_Children:
   - {fileID: 1516614623078194542}
-  - {fileID: -963083674282266233}
-  - {fileID: -4050964110280329763}
-  - {fileID: 1940767430338964418}
+  - {fileID: -3329439553625312997}
   m_Volume: 9ec6b560bb85e4f60a963a579da22c15
   m_Pitch: 2be90b0504b844205acbc4e45e14622d
   m_Send: 00000000000000000000000000000000
@@ -214,6 +251,7 @@ AudioMixerSnapshotController:
   m_SnapshotID: 516e4a21c7d32401a8fb5893c4d176d7
   m_FloatValues:
     9254c7f33ce4f4ef08964e6f32d759c4: 20
+    cd1b9a150d8f3468dadf5b2dd5ac98ab: 0
     88fe93ab1f1da45169c70b2f3d055c3d: 2
     61f235ebbd91743258de8c7e16b439e1: 5
     edc4796c3ae1e443ab470166bfefb749: 22000
