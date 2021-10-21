@@ -23,3 +23,6 @@ At the end of this project, you are expected to be able to explain to anyone, wi
   - “Wallpaper”, “Cheery Monday” [Kevin MacLeod](incompetech.com)
 Licensed under Creative Commons: By Attribution 3.0
 http://creativecommons.org/licenses/by/3.0/
+
+## Notes
+While I'm beginning this late in the project, I want to start keeping a [Notes file](notes.md) with links to resources that were helpful during this specific part of the build.
