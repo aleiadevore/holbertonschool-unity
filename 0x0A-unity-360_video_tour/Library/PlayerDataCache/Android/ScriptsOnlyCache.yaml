@@ -1,6 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - GameMusicPlayer
     - HandPresence
     - InfoTrigger
     - SceneLoader
@@ -280,6 +281,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 84
       Script: {instanceID: 0}
     - Class: 89
@@ -332,6 +337,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 5180}
     - Class: 114
       Script: {instanceID: 5524}
+    - Class: 114
+      Script: {instanceID: 40466}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -353,6 +360,12 @@ ScriptsOnlyBuild:
     - Class: 223
       Script: {instanceID: 0}
     - Class: 224
+      Script: {instanceID: 0}
+    - Class: 241
+      Script: {instanceID: 0}
+    - Class: 243
+      Script: {instanceID: 0}
+    - Class: 245
       Script: {instanceID: 0}
     - Class: 328
       Script: {instanceID: 0}
@@ -1388,6 +1401,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: XRUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameMusicPlayer
   platform: 13
   scenePathNames:
   - Assets/Scenes/LivingRoom.unity
