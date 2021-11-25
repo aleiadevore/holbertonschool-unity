@@ -14,16 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
     m_Keys:
-    - Assets/Scenes/Cube.unity
-    - Assets/Scenes/Cube.unity.meta
     - Assets/Scenes/LivingRoom.unity
-    - Assets/Scenes/Mezzanine.unity
-    - Assets/Scenes/Mezzanine.unity.meta
-    - Assets/Videos/Cube.mp4
-    - Assets/Videos/Cube.mp4.meta
-    - ProjectSettings/ProjectSettings.asset
     - 
-    m_Values: 000000000000000000
+    m_Values: 0101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 
