@@ -16,3 +16,4 @@ This directory contains files for a VR escape room.
 ## Make it accessible
 Once the basics are complete, try to:
 - [ ] Create sound cues for interactable objects
+- [ ] Check for color cues. Are they color blind safe colors?
