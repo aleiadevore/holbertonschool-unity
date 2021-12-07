@@ -17,4 +17,4 @@ This repository contains practice projects for learning Unity. Files range from 
 - **[Final Platformer Game](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x08-unity-audio)** - Building on Unity Animation, this project creates audio for the platformer game
 - **[AR Business Card](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x09-unity_ar_business_card)** - An augmented reality business card!
 - **[360 Video](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x0A-unity-360_video_tour)** - A 360 degree video tour built for Oculus Quest
-- **[RV Escape Room](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x0B-unity-vr_room)** - Virtual reality escape room for Oculus Quest
+- **[VR Escape Room](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x0B-unity-vr_room)** - Virtual reality escape room for Oculus Quest

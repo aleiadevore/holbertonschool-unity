@@ -22,7 +22,7 @@ Get hands able to interact
 - [ ] Physics issues
   - [ ] Headset can walk through solid objects
   - [X] Impossible to teleport through solid objects
-- Sphere collider in awkward placement for hand. Move to more center
+- [ ] Sphere collider in awkward placement for hand. Move to more center
 ### 12/6
 - [X] Locomotion is making user stand halfway into the ground
 - [ ] GameObject at the end of raycast can interact with objects, but the actual hands can't
