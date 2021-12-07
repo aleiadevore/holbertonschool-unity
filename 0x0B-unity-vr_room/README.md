@@ -3,7 +3,12 @@ This directory contains files for a VR escape room.
 
 ## Progress log
 ### 12/7
-- Locomotion works, but raycast flashes as though it can't tell if an area is valid or not
+**Today's Focus:**
+Get hands able to interact
+- [ ] Locomotion works, but raycast flashes as though it can't tell if an area is valid or not
+- [ ] Hand animation works for right but not left
+  - [ ] Base hand visible in addition to model. Do I have it duplicated somewhere?
+- [ ] Still standing halfway through floor, but it looks like this is because my feet are on world ground instead of floor of level.
 ### 12/6
 - [X] Locomotion is making user stand halfway into the ground
 - [ ] GameObject at the end of raycast can interact with objects, but the actual hands can't

@@ -138,7 +138,7 @@
 76-->[:unityLibrary] /Users/aleiamcnaney/Documents/VScode/holbertonschool-unity/0x0B-unity-vr_room/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:67:9-69:68
 77            android:name="unity.build-id"
 77-->[:unityLibrary] /Users/aleiamcnaney/Documents/VScode/holbertonschool-unity/0x0B-unity-vr_room/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:68:13-42
-78            android:value="07baa5e3-74cf-48b4-a9bd-97fc8f0db827" />
+78            android:value="6181465f-6f2a-4aaa-8db3-2dcdf6ed9e6f" />
 78-->[:unityLibrary] /Users/aleiamcnaney/Documents/VScode/holbertonschool-unity/0x0B-unity-vr_room/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:69:13-65
 79        <meta-data
 79-->[:unityLibrary] /Users/aleiamcnaney/Documents/VScode/holbertonschool-unity/0x0B-unity-vr_room/Temp/gradleOut/unityLibrary/build/intermediates/library_manifest/release/AndroidManifest.xml:70:9-72:39
