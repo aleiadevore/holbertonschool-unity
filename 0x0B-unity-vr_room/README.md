@@ -1,11 +1,14 @@
 # 0x0B-unity-vr_room
 This directory contains files for a VR escape room.
 
-## Progress log 12/6
-- Locomotion is making user stand halfway into the ground
-- GameObject at the end of raycast can interact with objects, but the actual hands can't
-- Raycast arc looks gross. Mess with it
-- The transition between valid color and invalid color is jarring. Make similar enough for smooth distinction while still being clearly distinct.
+## Progress log
+### 12/7
+- Locomotion works, but raycast flashes as though it can't tell if an area is valid or not
+### 12/6
+- [X] Locomotion is making user stand halfway into the ground
+- [ ] GameObject at the end of raycast can interact with objects, but the actual hands can't
+- [X] Raycast arc looks gross. Mess with it
+- [X] The transition between valid color and invalid color is jarring. Make similar enough for smooth distinction while still being clearly distinct.
 - Right now, the left hand is for locomotion while the right hand is for attempting to interact as a hand. To fix this:
   - [ ] First, just get it to work like this.
     - [ ] Determine why models aren't animated correctly
@@ -17,3 +20,4 @@ This directory contains files for a VR escape room.
 Once the basics are complete, try to:
 - [ ] Create sound cues for interactable objects
 - [ ] Check for color cues. Are they color blind safe colors?
+- [ ] Raycast continually flashing between valid and nonvalid is nausiating. Figure out what's going on with it.
