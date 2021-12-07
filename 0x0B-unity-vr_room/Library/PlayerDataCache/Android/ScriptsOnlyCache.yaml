@@ -21,6 +21,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.UI.XRUIInputModule
     - UnityEngine.XR.Interaction.Toolkit.XRController
     - UnityEngine.XR.Interaction.Toolkit.XRDirectInteractor
+    - UnityEngine.XR.Interaction.Toolkit.XRGrabInteractable
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
     - UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual
     - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
@@ -57,10 +58,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -129,6 +128,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3974}
     - Class: 114
+      Script: {instanceID: 4010}
+    - Class: 114
       Script: {instanceID: 4140}
     - Class: 114
       Script: {instanceID: 4334}
@@ -145,13 +146,13 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5816}
     - Class: 114
-      Script: {instanceID: 18860}
+      Script: {instanceID: 18864}
     - Class: 114
-      Script: {instanceID: 18862}
+      Script: {instanceID: 18866}
     - Class: 114
-      Script: {instanceID: 18900}
+      Script: {instanceID: 18904}
     - Class: 114
-      Script: {instanceID: 18978}
+      Script: {instanceID: 18982}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120

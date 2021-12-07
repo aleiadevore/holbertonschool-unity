@@ -10,16 +10,23 @@ Get hands able to interact
   - [ ] Base hand visible in addition to model. Do I have it duplicated somewhere?
 - [X] Still standing halfway through floor, but it looks like this is because my feet are on world ground instead of floor of level.
   - Switching tracking from device to floor seemed to solve issue.
+- [X]**Hands can grab things!**
+  - [ ] All interactables can now be picked up
+  - [ ] Need to go through and see what should be picked up
+- [ ] Physics issues
+  - [ ] Headset can walk through solid objects
+  - [X] Impossible to teleport through solid objects
+- Sphere collider in awkward placement for hand. Move to more center
 ### 12/6
 - [X] Locomotion is making user stand halfway into the ground
 - [ ] GameObject at the end of raycast can interact with objects, but the actual hands can't
 - [X] Raycast arc looks gross. Mess with it
 - [X] The transition between valid color and invalid color is jarring. Make similar enough for smooth distinction while still being clearly distinct.
 - Right now, the left hand is for locomotion while the right hand is for attempting to interact as a hand. To fix this:
-  - [ ] First, just get it to work like this.
+  - [X] First, just get it to work like this.
     - [ ] Determine why models aren't animated correctly
-    - [ ] Determine why sphere collider on right isn't working
-      - [ ] Try to make collider larger
+    - [X] Determine why sphere collider on right isn't working
+      - [X] Try to make collider larger
   - [ ] Figure way to make raycast only exist when B button pressed
 
 ## Make it accessible
