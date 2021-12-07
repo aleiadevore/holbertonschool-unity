@@ -1,5 +1,11 @@
 # 0x0B-unity-vr_room
 This directory contains files for a VR escape room.
+- [0x0B-unity-vr_room](#0x0b-unity-vr_room)
+  - [Progress log](#progress-log)
+    - [12/7](#127)
+    - [12/6](#126)
+  - [Make it accessible](#make-it-accessible)
+  - [References](#references)
 
 ## Progress log
 ### 12/7
@@ -34,3 +40,11 @@ Once the basics are complete, try to:
 - [ ] Create sound cues for interactable objects
 - [ ] Check for color cues. Are they color blind safe colors?
 - [ ] Raycast continually flashing between valid and nonvalid is nausiating. Figure out what's going on with it.
+
+## References
+Videos I used as tutorials
+- [UNITY XR INTERACTION TUTORIAL PART 6: Using the Interactable Events](https://www.youtube.com/watch?v=KcSGf2DKQhU&ab_channel=DanielStringer)
+- [Introduction to VR in Unity - PART 1 : VR SETUP](https://www.youtube.com/watch?v=gGYtahQjmWQ&ab_channel=Valem)
+  - Getting hand grab working
+- [Introduction to VR in Unity - PART 2 : INPUT and HAND PRESENCE](https://www.youtube.com/watch?v=VdT0zMcggTQ&ab_channel=Valem)
+  - Getting hand animation working correctly
