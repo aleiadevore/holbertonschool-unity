@@ -2,12 +2,21 @@
 This directory contains files for a VR escape room.
 - [0x0B-unity-vr_room](#0x0b-unity-vr_room)
   - [Progress log](#progress-log)
+    - [12/10](#1210)
     - [12/7](#127)
     - [12/6](#126)
   - [Make it accessible](#make-it-accessible)
   - [References](#references)
 
 ## Progress log
+### 12/10
+- [X] Door works!
+- Idea for walls:
+  - Create canvas of black screen
+  - When rigidbody around camera hits something, trigger black screen
+  - Make sure to check that it isn't the cube around door
+- For advanced door:
+  - Instead of any trigger, check that it has tag/name for specific key
 ### 12/7
 **Today's Focus:**
 Get hands able to interact

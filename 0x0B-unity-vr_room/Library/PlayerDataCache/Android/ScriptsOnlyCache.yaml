@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - DoorOpen
     - HandPresence
+    - fadeBlack
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
@@ -18,6 +20,7 @@ ScriptsOnlyBuild:
     - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
     - UnityEngine.XR.Interaction.Toolkit.TeleportationArea
     - UnityEngine.XR.Interaction.Toolkit.TeleportationProvider
+    - UnityEngine.XR.Interaction.Toolkit.UI.TrackedDeviceGraphicRaycaster
     - UnityEngine.XR.Interaction.Toolkit.UI.XRUIInputModule
     - UnityEngine.XR.Interaction.Toolkit.XRController
     - UnityEngine.XR.Interaction.Toolkit.XRDirectInteractor
@@ -58,8 +61,10 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -69,6 +74,9 @@ ScriptsOnlyBuild:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
   sceneClasses:
     Assets/Scenes/VR Room.unity:
     - Class: 1
@@ -112,47 +120,57 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 0}
+      Script: {instanceID: 1588}
     - Class: 114
-      Script: {instanceID: 1944}
+      Script: {instanceID: 1652}
     - Class: 114
-      Script: {instanceID: 2118}
+      Script: {instanceID: 1948}
     - Class: 114
-      Script: {instanceID: 2496}
+      Script: {instanceID: 2122}
     - Class: 114
-      Script: {instanceID: 2914}
+      Script: {instanceID: 2500}
     - Class: 114
-      Script: {instanceID: 3162}
+      Script: {instanceID: 2770}
     - Class: 114
-      Script: {instanceID: 3316}
+      Script: {instanceID: 2918}
     - Class: 114
-      Script: {instanceID: 3974}
+      Script: {instanceID: 3134}
     - Class: 114
-      Script: {instanceID: 4010}
+      Script: {instanceID: 3166}
     - Class: 114
-      Script: {instanceID: 4140}
+      Script: {instanceID: 3320}
     - Class: 114
-      Script: {instanceID: 4334}
+      Script: {instanceID: 3978}
     - Class: 114
-      Script: {instanceID: 4374}
+      Script: {instanceID: 4014}
     - Class: 114
-      Script: {instanceID: 4454}
+      Script: {instanceID: 4144}
     - Class: 114
-      Script: {instanceID: 4500}
+      Script: {instanceID: 4338}
     - Class: 114
-      Script: {instanceID: 4572}
+      Script: {instanceID: 4378}
     - Class: 114
-      Script: {instanceID: 4960}
+      Script: {instanceID: 4458}
     - Class: 114
-      Script: {instanceID: 5816}
+      Script: {instanceID: 4504}
     - Class: 114
-      Script: {instanceID: 18864}
+      Script: {instanceID: 4576}
     - Class: 114
-      Script: {instanceID: 18866}
+      Script: {instanceID: 4964}
     - Class: 114
-      Script: {instanceID: 18904}
+      Script: {instanceID: 5446}
     - Class: 114
-      Script: {instanceID: 18982}
+      Script: {instanceID: 5820}
+    - Class: 114
+      Script: {instanceID: 18926}
+    - Class: 114
+      Script: {instanceID: 18928}
+    - Class: 114
+      Script: {instanceID: 18966}
+    - Class: 114
+      Script: {instanceID: 19044}
+    - Class: 114
+      Script: {instanceID: 27124}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -172,6 +190,12 @@ ScriptsOnlyBuild:
     - Class: 199
       Script: {instanceID: 0}
     - Class: 205
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
       Script: {instanceID: 0}
     - Class: 258
       Script: {instanceID: 0}
@@ -232,6 +256,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit
     className: XRControllerRecorder
+  - hash:
+      serializedVersion: 2
+      Hash: d0adc65b6f54d204e5a5dc174eb9a803
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: fadeBlack
   - hash:
       serializedVersion: 2
       Hash: 52bcb9c2a78bdd8d98a59e915c346e75
@@ -1126,6 +1156,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.Interaction.Toolkit.dll
     namespaceName: UnityEngine.XR.Interaction.Toolkit.UI
     className: XRUIInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f1d3ca72b29c1cd2dead1540b06750a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DoorOpen
   platform: 13
   scenePathNames:
   - Assets/Scenes/VR Room.unity
