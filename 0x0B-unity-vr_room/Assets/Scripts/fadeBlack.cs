@@ -5,6 +5,7 @@ using UnityEngine;
 public class fadeBlack : MonoBehaviour
 {
     public GameObject canvas;
+    public GameObject container;
 
     // Start is called before the first frame update
     void Start()
@@ -24,12 +25,16 @@ public class fadeBlack : MonoBehaviour
         {
             Debug.Log(other);
             canvas.SetActive(true);
+            container.SetActive(false);
         }
     }
 
     void OnTriggerExit(Collider other)
     {
         if (other.tag != "Door")
+        {
             canvas.SetActive(false);
+            container.SetActive(true);
+        }
     }
 }

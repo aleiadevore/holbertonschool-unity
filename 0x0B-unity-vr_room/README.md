@@ -15,6 +15,11 @@ This directory contains files for a VR escape room.
   - Create canvas of black screen
   - When rigidbody around camera hits something, trigger black screen
   - Make sure to check that it isn't the cube around door
+- Tested trigger with gameobject dissappearing.
+  - It is getting triggered, so why won't the canvas show up?
+    - Canvas now shows up at beginning, but disappears and does not reappear
+    - Probably best to switch to method of using sphere around head with inverted material, similar to fade to black method of 360 video
+  - Need to make radius smaller
 - For advanced door:
   - Instead of any trigger, check that it has tag/name for specific key
 ### 12/7
