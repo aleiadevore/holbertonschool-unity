@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class fadeBlack : MonoBehaviour
 {
-    public GameObject canvas;
-    public GameObject container;
+    // public GameObject canvas;
+    public GameObject cube;
 
     // Start is called before the first frame update
     void Start()
     {
-       canvas.SetActive(false); 
+       // canvas.SetActive(false);
+       cube.SetActive(false);
     }
 
     // Update is called once per frame
@@ -24,8 +25,8 @@ public class fadeBlack : MonoBehaviour
         if (other.tag != "Door")
         {
             Debug.Log(other);
-            canvas.SetActive(true);
-            container.SetActive(false);
+            // canvas.SetActive(true);
+            cube.SetActive(true);
         }
     }
 
@@ -33,8 +34,8 @@ public class fadeBlack : MonoBehaviour
     {
         if (other.tag != "Door")
         {
-            canvas.SetActive(false);
-            container.SetActive(true);
+            cube.SetActive(false);
+            // canvas.SetActive(false);
         }
     }
 }

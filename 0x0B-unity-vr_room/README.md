@@ -19,8 +19,10 @@ This directory contains files for a VR escape room.
   - It is getting triggered, so why won't the canvas show up?
     - Canvas now shows up at beginning, but disappears and does not reappear
     - Probably best to switch to method of using sphere around head with inverted material, similar to fade to black method of 360 video
-      - If I'm feeling lazy, could make walls around camera instead
-  - Need to make radius smaller
+      - Easier option: make box around with 6 cubes
+  - [X] Need to make radius smaller
+- [X] **Blackout Works!**
+  - Rigidbody/capsule collider around camera triggers cube make of 6 GameObject cubes to appear around camera
 - For advanced door:
   - Instead of any trigger, check that it has tag/name for specific key
 ### 12/7

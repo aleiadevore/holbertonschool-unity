@@ -258,7 +258,7 @@ ScriptsOnlyBuild:
     className: XRControllerRecorder
   - hash:
       serializedVersion: 2
-      Hash: 6f778aad68d3001103c6cb505ff09929
+      Hash: a366b8e3384e3c5509b46c3b7a2450b3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: fadeBlack
