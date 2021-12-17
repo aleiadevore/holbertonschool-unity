@@ -20,7 +20,8 @@ public class DoorOpen : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        animator.SetBool("character_nearby", true);
+        if (other.tag == "key")
+            animator.SetBool("character_nearby", true);
     }
 
     void OnTriggerExit(Collider other)
