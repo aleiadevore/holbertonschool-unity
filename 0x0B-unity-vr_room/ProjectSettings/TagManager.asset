@@ -7,6 +7,7 @@ TagManager:
   - Door
   - key
   - interact
+  - chess
   layers:
   - Default
   - TransparentFX

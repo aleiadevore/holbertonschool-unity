@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - DoorOpen
     - Flashlight
     - HandPresence
+    - chess
     - fadeBlack
     - projector
     Unity.InputSystem.dll:
@@ -175,6 +176,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 21456}
     - Class: 114
       Script: {instanceID: 87520}
+    - Class: 114
+      Script: {instanceID: 173406}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -1178,6 +1181,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: projector
+  - hash:
+      serializedVersion: 2
+      Hash: 698b25dae0c58bca573df7035e651c25
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: chess
   platform: 13
   scenePathNames:
   - Assets/Scenes/VR Room.unity

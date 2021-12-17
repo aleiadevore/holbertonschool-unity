@@ -1655,6 +1655,39 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 472720, guid: 26af61b285562a24abea55bb623bf8c1, type: 3}
   m_PrefabInstance: {fileID: 157392965}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &157870638 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1789058245380158, guid: 054509b01eba36f4bb4feefc1357aba5, type: 3}
+  m_PrefabInstance: {fileID: 334283333}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &157870642
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157870638}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10, y: 0.6661413, z: 10.000002}
+  m_Center: {x: 3.5, y: -0.21688165, z: 3.500001}
+--- !u!114 &157870643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 157870638}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e9eaf1e6a36465c9cfe611bd11449a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projector: {fileID: 1685562102}
+  glove2: {fileID: 2100000, guid: 4235cadf4bc2f40fc9acede4133f54b0, type: 2}
+  count: 0
 --- !u!1 &159622029
 GameObject:
   m_ObjectHideFlags: 0
@@ -1882,9 +1915,10 @@ GameObject:
   - component: {fileID: 168467172}
   - component: {fileID: 168467175}
   - component: {fileID: 168467174}
+  - component: {fileID: 168467176}
   m_Layer: 0
   m_Name: PawnDark
-  m_TagString: Untagged
+  m_TagString: chess
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2083,6 +2117,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &168467176
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 168467170}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.75590986, y: 1.2133604, z: 0.6546372}
+  m_Center: {x: -2.0555125e-21, y: 0.6066802, z: -4.6249033e-21}
 --- !u!1001 &171962592
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17692,7 +17739,7 @@ GameObject:
   - component: {fileID: 1415807839}
   m_Layer: 0
   m_Name: RookDark
-  m_TagString: interact
+  m_TagString: chess
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18227,9 +18274,10 @@ GameObject:
   - component: {fileID: 1436331148}
   - component: {fileID: 1436331151}
   - component: {fileID: 1436331150}
+  - component: {fileID: 1436331152}
   m_Layer: 0
   m_Name: BishopLight
-  m_TagString: Untagged
+  m_TagString: chess
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -18428,6 +18476,19 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!65 &1436331152
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1436331146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.8763501, y: 1.5062302, z: 0.75894177}
+  m_Center: {x: -0.000007651839, y: 0.75311506, z: -0.0000018287926}
 --- !u!1 &1437185044
 GameObject:
   m_ObjectHideFlags: 0
@@ -24723,7 +24784,7 @@ GameObject:
   - component: {fileID: 1829891266}
   m_Layer: 0
   m_Name: KnightLight
-  m_TagString: interact
+  m_TagString: chess
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26902,7 +26963,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1984908420
 Transform:
   m_ObjectHideFlags: 0

@@ -22,7 +22,7 @@ public class fadeBlack : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.tag != "Door" && other.tag != "interact")
+        if (other.tag != "Door" && other.tag != "interact" && other.tag != "chess" && other.tag != "key")
         {
             Debug.Log(other);
             // canvas.SetActive(true);
