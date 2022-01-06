@@ -2,7 +2,7 @@
 This repository contains practice projects for learning Unity. Files range from simple text answers to key components of the software to a virtual reality escape room.
 
 ## Current Goals
-1. Creating a virtual reality [escape room](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x0B-unity-vr_room)
+1. Creating an augmented reality slingshot game
 2. Reviewing old projects and tracking [accessibility issues](https://github.com/aleiadevore/holbertonschool-unity/projects/1)
 3. Updating READMEs for individual projects
 
