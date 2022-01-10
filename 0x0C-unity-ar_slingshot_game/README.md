@@ -11,4 +11,4 @@
   - [ ] Find way to change plane material on tap
   - [ ] Once I can isolate selected material, use for loop to disable all other planes
 - **Issue**:
-  In all of my brillaince, I didn't add the scene to github before trying to mass upload the project, so I'm going to have to redo the initial setup.
+  In all of my brilliance, I didn't add the scene to github before trying to mass upload the project, so I'm going to have to redo the initial setup.
