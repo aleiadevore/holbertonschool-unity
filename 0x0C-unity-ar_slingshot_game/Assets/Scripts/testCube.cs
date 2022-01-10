@@ -23,8 +23,7 @@ public class testCube : MonoBehaviour
             */
             // touch position is measured in pixels while GameObjects measured in units. Need to convert using camera.
             Vector3 touchPosition = Camera.main.ScreenToWorldPoint(touch.position);
-            // Don't change position of z
-            touchPosition.z = 0f;
+            touchPosition.z = 2f;
             transform.position = touchPosition;
         }
     }
