@@ -18,4 +18,8 @@
   - ~~Cube moving, but I don't know where it moved to.~~  **Solved:** cube is reappearing at AR Session Origin each time.
 - ~~Canvas isn't showing up.~~ **Solved:** Speaker/Camera cuts into screen. Either move further down, or move to bottom of screen.
 - Debug logs work with Xcode, so I can use that instead of changing the material while testing. I'll need to add specific chars to beginning or find a better way to filter to only Debug.Log outputs.
-
+<br></br>
+### 1/10/22
+Goals:
+- Use debugging to explore how the plane manager keeps track of planes using [getPlane.cs](Assets/Scripts/getPlane.cs)
+- Research [RaycastHit](https://www.monkeykidgc.com/2021/03/raycasthit-unity.html) to save plane
