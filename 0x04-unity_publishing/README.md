@@ -1,9 +1,8 @@
-# 0x03.Unity-UI
+# Unity Publishing
+
+This directory contains a simple maze game. As the culmination of three projects, it involved learning how to script game objects and implement UI elements.
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-**General**
 - What is the Canvas
 - What is screen space vs world space
 - How to use the Rect Tool
