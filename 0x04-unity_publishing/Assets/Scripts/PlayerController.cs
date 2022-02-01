@@ -102,6 +102,7 @@ public class PlayerController : MonoBehaviour
         SceneManager.LoadScene("maze");
     }
 
+    /// <summary>Loads menu scene</summary>
     public void loadMenu()
     {
         SceneManager.LoadScene("menu");

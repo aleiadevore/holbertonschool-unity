@@ -16,7 +16,7 @@ public class MainMenu : MonoBehaviour
     public Material goalMat;
     public Toggle colorblindMode;
 
-    // Start is called before the first frame update
+    ///<summary>Assigns listeners to buttons at start of game</summary>
     void Start()
     {
         Button StartB = PlayButton.GetComponent<Button>();
@@ -30,12 +30,6 @@ public class MainMenu : MonoBehaviour
 
         Button backB = BackButton.GetComponent<Button>();
         backB.onClick.AddListener(LeaveOptions);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     /// <summary>Loads maze scene when button pressed</summary>
@@ -61,12 +55,14 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
+    /// <summary>Opens options menu</summary>
     public void EnterOptions()
     {
         mainMenu.gameObject.SetActive(false);
         optionsMenu.gameObject.SetActive(true);
     }
 
+    /// <summary>Closes options menu</summary>
     public void LeaveOptions()
     {
         mainMenu.gameObject.SetActive(true);

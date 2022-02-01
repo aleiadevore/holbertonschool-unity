@@ -7,15 +7,17 @@ public class CameraController : MonoBehaviour
     ///<summary>Assigns player to follow</summary>
     public GameObject player;
     public Transform target;
-///<summary>Sets offset from camera to player</summary>
+    ///<summary>Sets offset from camera to player</summary>
     public Vector3 target_Offset;
 
+    /// <summary>Assigns target to player position and offset on start of game</summary>
     void Start()
     {
         target = player.transform;
         target_Offset = transform.position - target.position;
     }
 
+    /// <summary>Each frame update, transforms camera position to offset of player position</summary>
     void Update()
     {
         transform.position = Vector3.Lerp(transform.position, target.position+target_Offset, 0.1f);
