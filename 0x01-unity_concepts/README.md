@@ -1,9 +1,8 @@
 # 0x01. Unity - Unity Concepts
 
-## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+This directory contains basic scenes. Through this project, I learned how to create scenes, make prefabs, and manipulate GameObjects.
 
-**General**
+## Learning Goals
 - What is a GameObject
 - What is a Component
 - What is a Prefab
