@@ -1,4 +1,4 @@
-# 0x05. Unity - Assets: Models, Textures
+# 0x05 Third Person Copy
 
 >**Note:** This is a duplicate of [this directory](../0x05-unity-assets_models_textures). In the original, I scripted all elements. In this duplicate, I used Unity's [3rd Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526) to handle player and camera movement.
 
