@@ -1,9 +1,8 @@
-# 0x05. Unity - Assets: Models, Textures
+# 0x06 Unity - Assets, UI
+
+This is the second part of the platformer project finished in [0x08-unity-audio](../0x08-unity-audio). Building on the [third person copy](../0x05-3rd_person_copy), I created a main menu, options menu, and pause menu.
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-**General**
 - What is an Asset and how to import and use them
 - How to use Asset Packages and the Unity Asset Store
 - What are common Asset types
