@@ -1,5 +1,15 @@
 # holbertonschool-unity
 This repository contains practice projects for learning Unity. Files range from simple text answers to key components of the software to a virtual reality escape room.
+## Table of Contents
+- [holbertonschool-unity](#holbertonschool-unity)
+  - [Table of Contents](#table-of-contents)
+  - [Current Goals](#current-goals)
+  - [Projects](#projects)
+    - [Unity Concepts](#unity-concepts)
+    - [Platformer Game](#platformer-game)
+    - [Augmented Reality](#augmented-reality)
+    - [Virtual Reality](#virtual-reality)
+  - [Author](#author)
 
 ## Current Goals
 1. Creating sample shader graphs
@@ -25,3 +35,9 @@ This repository contains practice projects for learning Unity. Files range from 
 ### Virtual Reality
 - **[360 Video](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x0A-unity-360_video_tour)** - A 360 degree video tour built for Oculus Quest
 - **[VR Escape Room](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x0B-unity-vr_room)** - Virtual reality escape room for Oculus Quest
+
+## Author
+Aleia DeVore is a software engineer completing the Augmented Reality/Virtual Reality specialization at Holberton School Tulsa. Her interests include the gamification of daily tasks, organizational tools, and educational tools. When she's not coding, Aleia enjoys crafting and collecting new hobbies.
+- [LinkedIn](https://www.linkedin.com/in/aleiamcnaney/)
+- [Twitter](https://twitter.com/AleiaDeVore)
+- [Portfolio](https://aleiadevore.github.io/)
