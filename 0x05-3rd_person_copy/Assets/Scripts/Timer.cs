@@ -6,24 +6,19 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    ///<summary>Updates timer after player starts to move</summary>
+    /// <summary>Updates timer after player starts to move</summary>
 
     public Text TimerText;
     private float secondsCount = 00.00F;
     private int minutesCount = 0;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
+    /// <summary>Calls method to update time displayed</summary>
     void FixedUpdate()
     {
         UpdateTimerUI();
     }
 
+    /// <summary>Updates time displayed</summary>
     public void UpdateTimerUI()
     {
         secondsCount += Time.deltaTime;

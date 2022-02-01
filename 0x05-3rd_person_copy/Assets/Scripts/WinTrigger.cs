@@ -7,17 +7,8 @@ public class WinTrigger : MonoBehaviour
 {
     public GameObject player;
     public Text TimerText;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    } 
+    /// <summary>Triggers canvas text to display winning time when player collides with flag<summary>
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Winner");
