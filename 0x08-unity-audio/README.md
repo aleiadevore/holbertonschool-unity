@@ -1,9 +1,8 @@
 # 0x05. Unity - Assets: Models, Textures
 
-## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+This is the final version of the platformer game first created in [this directory](../0x05-unity-assets_models_textures). Building on [Unity Animation](../0x07-unity-animation), I created audio for the game and created a user interface so that players can save their audio preferences.
 
-**General**
+## Learning Objectives
 - What is a keyframe
 - What are Dopesheets and how to use them
 - What are Curves and how to use them
