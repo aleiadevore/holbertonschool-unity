@@ -1,7 +1,7 @@
-# holbertonschool-unity
+# Holberton School Unity
 This repository contains practice projects for learning Unity. Files range from simple text answers to key components of the software to a virtual reality escape room.
 ## Table of Contents
-- [holbertonschool-unity](#holbertonschool-unity)
+- [Holberton School Unity](#holberton-school-unity)
   - [Table of Contents](#table-of-contents)
   - [Current Goals](#current-goals)
   - [Projects](#projects)
@@ -33,6 +33,7 @@ This repository contains practice projects for learning Unity. Files range from 
 ![Screenshot of AR business card in use. A business card reading Aleia DeVore sits on a marble counter. Overlaying the image are buttons for Github, LinkedIn, a personal website, and a contact button. An image of Aleia, a white woman with curly brown hair, is also overlayed.](images/AR_business_card.png)
 - **[AR Business Card](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x09-unity_ar_business_card)** - An augmented reality business card!
 ### Virtual Reality
+![Screenshot of VR escape room. A saber coming from a hand reaches towards a flashlight. The background is a sci-fi room with large boxes.](images/vr_room_grab.png)
 - **[360 Video](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x0A-unity-360_video_tour)** - A 360 degree video tour built for Oculus Quest
 - **[VR Escape Room](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x0B-unity-vr_room)** - Virtual reality escape room for Oculus Quest
 
