@@ -1,7 +1,6 @@
 # 0x05. Unity - Assets: Models, Textures
 
-**Note:** This is a duplicate of [this directory](../0x05-unity-assets_models_textures). In the original, I scripted all elements. In this duplicate, I used Unity's [3rd Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526) to handle player and camera movement.
-{: .note}
+>**Note:** This is a duplicate of [this directory](../0x05-unity-assets_models_textures). In the original, I scripted all elements. In this duplicate, I used Unity's [3rd Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526) to handle player and camera movement.
 
 This directory contains the beginning of a platformer game that is finished in [0x08-unity-audio](../0x08-unity-audio). In this project, I planned out an overview of platformer placement, scripted a capsule to move with user input, and scripted the camera to move based on the mouse position. 
 
