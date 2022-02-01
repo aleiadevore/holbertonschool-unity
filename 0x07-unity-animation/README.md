@@ -1,4 +1,6 @@
-# 0x05. Unity - Assets: Models, Textures
+# 0x07 Unity - Animation
+
+This is the third part of the platformer project finished in [0x08-unity-audio](../0x08-unity-audio). Building on the [Assets, UI](../0x06-unity-assets_ui), I created an animated character model.
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
