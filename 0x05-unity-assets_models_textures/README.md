@@ -1,9 +1,8 @@
-# 0x05. Unity - Assets: Models, Textures
+# 0x05 Unity - Assets: Models, Textures
+
+This directory contains the beginning of a platformer game that is finished in [0x08-unity-audio](../0x08-unity-audio). In this project, I planned out an overview of platformer placement, scripted a capsule to move with user input, and scripted the camera to move based on the mouse position. 
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-**General**
 - What is an Asset and how to import and use them
 - How to use Asset Packages and the Unity Asset Store
 - What are common Asset types
