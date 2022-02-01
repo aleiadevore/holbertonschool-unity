@@ -1,6 +1,6 @@
-# 0x0B-unity-vr_room
+# Unity: VR Room
 ## Table of Contents
-- [0x0B-unity-vr_room](#0x0b-unity-vr_room)
+- [Unity: VR Room](#unity-vr-room)
   - [Table of Contents](#table-of-contents)
   - [About](#about)
   - [Make it accessible](#make-it-accessible)
