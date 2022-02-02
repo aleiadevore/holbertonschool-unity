@@ -6,26 +6,24 @@ public class InfoTrigger : MonoBehaviour
 {
     public GameObject panel;
     private bool isActive;
-    // Start is called before the first frame update
+
+    /// <summary>Sets bool checking if info is active to false at beginning of scene</summary>
     void Start()
     {
         isActive = false;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    /// <summary>Handles button press to open or close info text</summary>
     public void ButtonPressed()
     {
         Debug.Log("Button pressed");
+        // If info already open, close
         if (isActive)
         {
             isActive = false;
             CloseInfo();
         }
+        // If info closed, open it
         else
         {
             isActive = true;
@@ -33,11 +31,13 @@ public class InfoTrigger : MonoBehaviour
         }
     }
 
+    /// <summary>Closes info panel</summary>
     private void CloseInfo()
     {
         panel.SetActive(false);
     }
 
+    /// <summary>Opens info panel</summary>
     private void OpenInfo()
     {
         panel.SetActive(true);
