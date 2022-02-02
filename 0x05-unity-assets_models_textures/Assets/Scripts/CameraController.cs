@@ -13,14 +13,14 @@ public class CameraController : MonoBehaviour
     private float X;
     private float Y;
 
-    // Start is called before the first frame update
+    /// <summary>Sets target and target offset at beginning of scene</summary>
     void Start()
     {
         target = player.transform;
         target_Offset = transform.position - target.position;
     }
 
-    // Update is called once per frame
+    /// <summary>Manipulates camera position and angle based on character position and mouse position</summary>
     void Update()
     {
         // Steady cam follows player
