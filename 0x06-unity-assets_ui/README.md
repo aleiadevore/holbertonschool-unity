@@ -1,5 +1,7 @@
 # 0x06 Unity - Assets, UI
 
+![Screenshot of game. A paused menu shows "Restart," "Menu," "Options," and "Resume." In the background, a blue and purple capsule sits on an island overlooking several islands before it. Beneath them are clouds.](../images/0x06-screenshot.png)
+
 This is the second part of the platformer project finished in [0x08-unity-audio](../0x08-unity-audio). Building on the [third person copy](../0x05-3rd_person_copy), I created a main menu, options menu, and pause menu.
 
 ## Learning Objectives
