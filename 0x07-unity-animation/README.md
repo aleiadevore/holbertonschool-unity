@@ -1,5 +1,7 @@
 # 0x07 Unity - Animation
 
+![Screenshot of a platformer game. A blonde boy faces away from the camera towards several islands with clouds below. At the far end of the screen is a flag.](../images/platformer_middle.png)
+
 This is the third part of the platformer project finished in [0x08-unity-audio](../0x08-unity-audio). Building on the [Assets, UI](../0x06-unity-assets_ui), I created an animated character model.
 
 ## Learning Objectives
