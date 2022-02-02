@@ -2,6 +2,8 @@
 
 >**Note:** This is a duplicate of [this directory](../0x05-unity-assets_models_textures). In the original, I scripted all elements. In this duplicate, I used Unity's [3rd Person Character Controller](https://assetstore.unity.com/packages/essentials/starter-assets-third-person-character-controller-196526) to handle player and camera movement.
 
+![Screenshot of game. A blue and purple capsule sits on an island overlooking several islands before it. Beneath them are clouds. In the distance is a red flag with a seahorse on it.](../images/0x05-3rd_copy_screengrab.png)
+
 This directory contains the beginning of a platformer game that is finished in [0x08-unity-audio](../0x08-unity-audio). In this project, I planned out an overview of platformer placement, scripted a capsule to move with user input, and scripted the camera to move based on the mouse position. 
 
 ## Learning Objectives
