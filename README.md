@@ -18,7 +18,7 @@ This repository contains practice projects for learning Unity. Files range from 
 
 ## Projects
 ### Unity Concepts
-- **[Unity User Interface](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x00-unity-user_interface)** - text answers for learning how to use the Unity interface
+- **[Unity User Interface](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x00-unity-user_interface)** - Text answers for learning how to use the Unity interface
 - **[Unity Concepts](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x01-unity_concepts)** - Basic scene practice, creating prefabs
 - **[Unity Publishing](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x04-unity_publishing)** - A simple maze game, implementing scripts and UI elements
 ### Platformer Game
