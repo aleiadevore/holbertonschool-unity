@@ -19,7 +19,7 @@ public class PauseMenu : MonoBehaviour
     public AudioMixerSnapshot unpausedSnap;
 
 
-    // Start is called before the first frame update
+    /// <summary>Adds listeners to buttons and sets timeScripts and isPaused values on start of Pause</summary>
     void Start()
     {
         isPaused = false;
@@ -39,43 +39,50 @@ public class PauseMenu : MonoBehaviour
         OptionsButton.onClick.AddListener(Options);
     }
 
-    // Update is called once per frame
+    /// <summary>Calls Pause method when player presses escape key</summary>
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
             Pause();
     }
 
+    /// <summary>Loads pause menu and pauses timer</summary>
     public void Pause()
     {
         Debug.Log("Paused");
         isPaused = true;
         pauseCanvas.gameObject.SetActive(true);
         timeScript.Pause();
+        // Transitions to paused sound
         pausedSnap.TransitionTo(.01f);
 
     }
 
+    /// <summary>Exits pause menu and resumes timer</summary>
     public void Resume()
     {
         Debug.Log("Resume");
         isPaused = false;
         pauseCanvas.gameObject.SetActive(false);
         timeScript.Resume();
+        // Transitions to normal sound
         unpausedSnap.TransitionTo(.01f);
     }
 
+    /// <summary>Restarts scene</summary>
     public void Restart()
     {
         SceneManager.LoadScene(SceneName);
     }
 
+    /// <summary>Loads Main Menu</summary>
     public void MainMenu()
     {
         Debug.Log("Main menu clicked");
         SceneManager.LoadScene("MainMenu");
     }
 
+    /// <summary>Loads Options Menu</summary>
     public void Options()
     {
         SceneManager.LoadScene("Options");

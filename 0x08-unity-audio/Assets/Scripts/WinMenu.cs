@@ -10,20 +10,17 @@ public class WinMenu : MonoBehaviour
     public Button nextButton;
     public GameObject Player;
     public string NextScene = "";
-    // Start is called before the first frame update
-    void Start()
+
+
+    void 
+    /// <summary>Adds listeners to buttons at start of scene</summary>
+    Start()
     {
         Button MenuButton = menuButton.GetComponent<Button>();
         MenuButton.onClick.AddListener(MainMenu);
 
         Button NextButton = nextButton.GetComponent<Button>();
         NextButton.onClick.AddListener(Next);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void 
@@ -33,7 +30,9 @@ public class WinMenu : MonoBehaviour
         SceneManager.LoadScene("MainMenu");
     }
 
-    public void Next()
+    public void 
+    /// <summary>Loads next scene</summary>
+    Next()
     {
         SceneManager.LoadScene(NextScene);
     }

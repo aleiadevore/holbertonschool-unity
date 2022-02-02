@@ -11,19 +11,17 @@ public class OptionsMenu : MonoBehaviour
     public bool isInverted = false;
     public Slider BGMslider;
     public Slider SFXslider;
-    // Start is called before the first frame update
+
+    /// <summary>Sets slider values to volume settings based on player prefs</summary>
     void Start()
     {
         BGMslider.value = PlayerPrefs.GetFloat("BGMVol");
         SFXslider.value = PlayerPrefs.GetFloat("SFXVol");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
-
-    public void /// <summary>
+    public void
+    /// <summary>
+    /// Gets previous scene from PlayerPrefs and reloads scene
     /// </summary>
     Options()
     {
@@ -31,7 +29,9 @@ public class OptionsMenu : MonoBehaviour
         SceneManager.LoadScene(prev);
     }
 
-    public void /// <summary>
+    public void
+    /// <summary>
+    /// Gets previous scene from PlayerPrefs and reloads scene
     /// </summary>
     Back()
     {
@@ -40,7 +40,7 @@ public class OptionsMenu : MonoBehaviour
     }
 
     public void 
-    ///<summary>Sets playerPref isInverted to 0 if false or 1 if true</summary>
+    /// <summary>Sets playerPref isInverted to 0 if false or 1 if true</summary>
     Inversion()
     {
         // Change so that checks if isInverted exists in player prefs
@@ -61,19 +61,7 @@ public class OptionsMenu : MonoBehaviour
         }
     }
 
-    public void SetBGM(float sliderValue)
-    {
-        /* sliderValue is a float, but audio is logarithmic. Convert so sound isn't too sensitive */
-        Mixer.SetFloat("BGMVol", Mathf.Log10(sliderValue) * 20);
-        PlayerPrefs.SetFloat("BGMVol", sliderValue);
-    }
-
-    public void SetSFX(float sliderValue)
-    {
-        Mixer.SetFloat("SFXVol", Mathf.Log10(sliderValue) * 20);
-        PlayerPrefs.SetFloat("SFXVol", sliderValue);
-    }
-
+    /// <summary>Saves player preferences</summary>
     public void Apply()
     {
         PlayerPrefs.Save();
