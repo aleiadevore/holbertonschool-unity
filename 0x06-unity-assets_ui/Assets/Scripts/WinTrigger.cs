@@ -9,24 +9,17 @@ public class WinTrigger : MonoBehaviour
     public Text TimerText;
     public Canvas WinCanvas;
     public Timer timeScript;
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    } 
+    /// <summary>Triggers canvas text to display winning time when player collides with flag<summary>
     void OnTriggerEnter(Collider other)
     {
         Debug.Log("Winner");
         if (other.gameObject.name == "Player")
         {
             player.GetComponent<Timer>().enabled = false;
-            //timeScript.Win();
+            // Calls win method to set winning time
             player.GetComponent<Timer>().Win();
+            // Opens win screen
             WinCanvas.gameObject.SetActive(true);
         }
 
