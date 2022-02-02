@@ -11,19 +11,14 @@ public class PlayerController : MonoBehaviour
     private Rigidbody rb;
 
     public Transform spawnPoint;
-    //private Vector3 playerVelocity;
 
     public bool isGrounded;
 
     private Vector3 move;
 
-    /*private CharacterController controller;
-
-    private Vector3 playerVelocity;
-    private bool groundedPlayer;*/
 
 
-    // Start is called before the first frame update
+    /// <summary>Sets rigidbody and sets isGrounded bool to true at start of scene</summary>
     void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -31,18 +26,17 @@ public class PlayerController : MonoBehaviour
     }
 
     /// <summary>
-    /// This function is called every fixed framerate frame, if the MonoBehaviour is enabled.
+    /// Checks if player is grounded, then sets velocity to move player
     /// </summary>
     void FixedUpdate()
     {
-        //Debug.Log(isGrounded);
         if (isGrounded == true)
         {
             rb.velocity = new Vector3(Input.GetAxis("Horizontal") * speed, Input.GetAxis("Jump") * jumpHeight, Input.GetAxis("Vertical") * speed);
         }            
     }
 
-    // Update is called once per frame
+    /// <summary>Updated every scene, checks if player is freefalling. If so, respawns player at 0, 0, 0</summary>
     void Update()
     {
         if (player.transform.position.y < -10)
@@ -54,15 +48,16 @@ public class PlayerController : MonoBehaviour
         
     }
 
+    /// <summary>If player enters collision with a ground GameObject, sets isGrounded bool to true</summary>
     void OnCollisionEnter(Collision other)
     {
         Debug.Log("Enter");
-        //Debug.Log("Grounded");
         if (other.gameObject.tag=="Floor")
             isGrounded = true;
         Debug.Log(isGrounded);
     }
 
+    /// <summary>If player exits collision with a ground GameObject, sets isGrounded bool to false</summary>
     void OnCollisionExit(Collision other)
     {
         Debug.Log("Exit");
