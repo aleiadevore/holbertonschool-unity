@@ -6,18 +6,11 @@ using UnityEngine.SceneManagement;
 public class OptionsMenu : MonoBehaviour
 {
     public bool isInverted = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-    }
 
-    public void /// <summary>
+    public void
+    /// <summary>
+    /// Gets previous scene from PlayerPrefs and reloads scene
     /// </summary>
     Options()
     {
@@ -25,7 +18,9 @@ public class OptionsMenu : MonoBehaviour
         SceneManager.LoadScene(prev);
     }
 
-    public void /// <summary>
+    public void
+    /// <summary>
+    /// Gets previous scene from PlayerPrefs and reloads scene
     /// </summary>
     Back()
     {
@@ -34,7 +29,7 @@ public class OptionsMenu : MonoBehaviour
     }
 
     public void 
-    ///<summary>Sets playerPref isInverted to 0 if false or 1 if true</summary>
+    /// <summary>Sets playerPref isInverted to 0 if false or 1 if true</summary>
     Inversion()
     {
         // Change so that checks if isInverted exists in player prefs
@@ -55,6 +50,7 @@ public class OptionsMenu : MonoBehaviour
         }
     }
 
+    /// <summary>Saves player preferences</summary>
     public void Apply()
     {
         PlayerPrefs.Save();

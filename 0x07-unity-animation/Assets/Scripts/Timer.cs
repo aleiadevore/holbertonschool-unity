@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Timer : MonoBehaviour
 {
-    ///<summary>Updates timer after player starts to move</summary>
+    /// <summary>Updates timer after player starts to move</summary>
 
     public Text TimerText;
     private float secondsCount = 00.00F;
@@ -14,28 +14,26 @@ public class Timer : MonoBehaviour
     public bool isPaused = false;
     public Text WinText;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-    }
-
+    /// <summary>Sets isPaused bool to true</summary>
     public void Pause()
     {
         isPaused = true;
     }
 
+    /// <summary>Sets isPaused bool to false</summary>
     public void Resume()
     {
         isPaused = false;
     }
 
-    // Update is called once per frame
+    /// <summary>Calls method to update time displayed</summary>
     void FixedUpdate()
     {
         if (isPaused == false)
             UpdateTimerUI();
     }
 
+    /// <summary>Updates time displayed</summary>
     public void UpdateTimerUI()
     {
         secondsCount += Time.deltaTime;
@@ -47,6 +45,7 @@ public class Timer : MonoBehaviour
         }
     }
 
+    /// <summary>Handles win. Sets isPaused bool to true and updates the winning time text.</summary>
     public void Win()
     {
         isPaused = true;
