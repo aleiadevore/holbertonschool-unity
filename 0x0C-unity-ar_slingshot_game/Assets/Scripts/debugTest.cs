@@ -4,15 +4,10 @@ using UnityEngine;
 
 public class debugTest : MonoBehaviour
 {
-    // Start is called before the first frame update
+    /// <summary>Logs start of scene</summary>
     void Start()
     {
         Debug.Log("Debug log working");
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

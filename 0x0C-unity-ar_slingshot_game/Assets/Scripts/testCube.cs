@@ -5,7 +5,7 @@ using UnityEngine;
 public class testCube : MonoBehaviour
 {
 
-    // Update is called once per frame
+    /// <summary>Moves cube to position of user's tap</summary>
     void Update()
     {
         // Can find multiple touches (multiple finger taps)
