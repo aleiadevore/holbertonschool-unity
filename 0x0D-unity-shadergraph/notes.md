@@ -16,3 +16,7 @@
   - Set input range to -1 and 1, since that's the range of sine
   - Remap output becomes power of fresnal effect
 - Setting pulse frequency
+  - Create pulse speed property.
+  - Output time (just time) and pulse speed into new multiply node.
+  - Output multiply node into new sine node.
+  - Use sine node output as remap's input
