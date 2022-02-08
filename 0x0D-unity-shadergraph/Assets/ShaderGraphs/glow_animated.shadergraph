@@ -827,7 +827,7 @@
     "m_Name": "Vector2",
     "m_DefaultReferenceName": "Vector2_449fe1b022fa494c8703ebd2a1b18866",
     "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
+    "m_GeneratePropertyBlock": false,
     "m_Precision": 0,
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
@@ -988,10 +988,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1313.5,
-            "y": 130.50003051757813,
-            "width": 208.0,
-            "height": 278.0
+            "x": -1257.9998779296875,
+            "y": 328.5,
+            "width": 126.99999237060547,
+            "height": 94.0
         }
     },
     "m_Slots": [
@@ -1004,7 +1004,7 @@
     ],
     "synonyms": [],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
@@ -1215,8 +1215,8 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1827.9998779296875,
-            "y": 133.49998474121095,
+            "x": -1661.9998779296875,
+            "y": 326.0,
             "width": 125.5,
             "height": 173.0
         }
@@ -1801,10 +1801,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1836.5,
-            "y": 342.0,
+            "x": -1670.4998779296875,
+            "y": 534.5,
             "width": 138.5,
-            "height": 34.000003814697269
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -1890,10 +1890,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1623.4998779296875,
-            "y": 127.00001525878906,
-            "width": 208.0,
-            "height": 302.0
+            "x": -1457.4998779296875,
+            "y": 326.4999694824219,
+            "width": 124.99999237060547,
+            "height": 118.0
         }
     },
     "m_Slots": [
@@ -1909,7 +1909,7 @@
     ],
     "synonyms": [],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []

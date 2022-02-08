@@ -20,3 +20,6 @@
   - Output time (just time) and pulse speed into new multiply node.
   - Output multiply node into new sine node.
   - Use sine node output as remap's input
+## 2 - Dissolve
+### Resources
+- YouTube: [DISSOLVE using Unity Shader Graph](https://youtu.be/taMp1g1pBeE)
