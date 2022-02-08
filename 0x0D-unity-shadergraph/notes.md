@@ -14,4 +14,5 @@
   - Create remap node with sin as input.
   - Take vector 2 with min and max and use the output for the output range for remap node.
   - Set input range to -1 and 1, since that's the range of sine
+  - Remap output becomes power of fresnal effect
 - Setting pulse frequency
