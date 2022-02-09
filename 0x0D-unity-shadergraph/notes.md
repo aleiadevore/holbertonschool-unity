@@ -31,3 +31,11 @@
   - Create time node.
   - Create multiply node to multiply time by speed.
   - Output multiply to alpha clip threshold.
+## 3 - Ice
+Since I now have a basic understanding of shader graphs, I'm going to try this on my own before I look up any tutorials.
+### My version
+![Screenshot of Unity scene view. A blue cube is in the center of the screen. It is semitransparent, and there is a piece missing, giving the illusion of melting.](Screenshots/ice_cube_first_attempt.png)
+- Create gradient noise and set the scale to 2.
+- Output gradient noise to alpha.
+- Set alpha clip threshold to 0.
+- Graph should be lit with a transparent surface.
