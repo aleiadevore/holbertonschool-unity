@@ -23,3 +23,11 @@
 ## 2 - Dissolve
 ### Resources
 - YouTube: [DISSOLVE using Unity Shader Graph](https://youtu.be/taMp1g1pBeE)
+### Steps
+- Create simple noise for Alpha.
+- Create scale property. Set default to 30 and use this for simple noise scale.
+- Edit the [alpha clip](https://docs.unity3d.com/Packages/com.unity.render-pipelines.high-definition@7.1/manual/Alpha-Clipping.html) to control the speed.
+  - Create speed property. Set default to .1
+  - Create time node.
+  - Create multiply node to multiply time by speed.
+  - Output multiply to alpha clip threshold.
