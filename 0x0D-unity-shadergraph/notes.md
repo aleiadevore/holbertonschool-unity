@@ -39,3 +39,5 @@ Since I now have a basic understanding of shader graphs, I'm going to try this o
 - Output gradient noise to alpha.
 - Set alpha clip threshold to 0.
 - Graph should be lit with a transparent surface.
+### Resources
+- YouTube: [Unity Shader Graph - Ice Tutorial](https://youtu.be/Gym5JWHgjkk)
