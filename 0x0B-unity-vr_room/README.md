@@ -1,4 +1,5 @@
 # Unity: VR Room
+![Screenshot of VR escape room. A saber coming from a hand reaches towards a flashlight. The background is a sci-fi room with large boxes.](../images/vr_room_grab.png)
 ## Table of Contents
 - [Unity: VR Room](#unity-vr-room)
   - [Table of Contents](#table-of-contents)
