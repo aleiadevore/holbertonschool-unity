@@ -41,3 +41,8 @@ Since I now have a basic understanding of shader graphs, I'm going to try this o
 - Graph should be lit with a transparent surface.
 ### Resources
 - YouTube: [Unity Shader Graph - Ice Tutorial](https://youtu.be/Gym5JWHgjkk)
+## 4 - Hologram
+### Resources
+- [Shader Graph Tutorials: Hologram Shader](https://www.codinblack.com/shader-graph-tutorials-hologram-shader/)
+### Steps
+- Following the Hologram Shader tutorial above, I created a scrolling affect. However, I don't like the way this looks. In our example, the texture is supposed to flicker. In the one I created, it scrolls. Need to rework.
