@@ -45,6 +45,11 @@ Since I now have a basic understanding of shader graphs, I'm going to try this o
 ### First Attempt
 - [Shader Graph Tutorials: Hologram Shader](https://www.codinblack.com/shader-graph-tutorials-hologram-shader/)
 - Following the Hologram Shader tutorial above, I created a scrolling affect. However, I don't like the way this looks. In our example, the texture is supposed to flicker. In the one I created, it scrolls. Need to rework.
+### Second Attempt
+- [Holograms in Unity Shader Graph](https://youtu.be/wtZ5WcrV-9A)
+- Following instructions from tutorial, which is a simplified version of the first attempt.
+- I definitely like the lack of flashing.
+- Modified it so that only the fresnel + color in emission becuase no colors would show if I used the fresnel + texture.
 ## Misc. Notes
 - Organization
   - To group items, highlight nodes and ctrl+g. This will prompt you for a name for group.
