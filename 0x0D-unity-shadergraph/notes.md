@@ -42,7 +42,9 @@ Since I now have a basic understanding of shader graphs, I'm going to try this o
 ### Resources
 - YouTube: [Unity Shader Graph - Ice Tutorial](https://youtu.be/Gym5JWHgjkk)
 ## 4 - Hologram
-### Resources
+### First Attempt
 - [Shader Graph Tutorials: Hologram Shader](https://www.codinblack.com/shader-graph-tutorials-hologram-shader/)
-### Steps
 - Following the Hologram Shader tutorial above, I created a scrolling affect. However, I don't like the way this looks. In our example, the texture is supposed to flicker. In the one I created, it scrolls. Need to rework.
+## Misc. Notes
+- Organization
+  - To group items, highlight nodes and ctrl+g. This will prompt you for a name for group.
