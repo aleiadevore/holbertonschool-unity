@@ -50,6 +50,11 @@ Since I now have a basic understanding of shader graphs, I'm going to try this o
 - Following instructions from tutorial, which is a simplified version of the first attempt.
 - I definitely like the lack of flashing.
 - Modified it so that only the fresnel + color in emission becuase no colors would show if I used the fresnel + texture.
+## 5 - Ocean
+## Resources
+- [Oceans with Unity Shader Graph.](https://youtu.be/kgXeo2SRDd4)
+- [MESH GENERATION in Unity - Basics](https://youtu.be/eJEpeUH1EMg)
+<br></br>
 ## Misc. Notes
 - Organization
   - To group items, highlight nodes and ctrl+g. This will prompt you for a name for group.

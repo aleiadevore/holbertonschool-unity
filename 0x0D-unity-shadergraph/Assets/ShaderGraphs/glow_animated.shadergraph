@@ -98,7 +98,11 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "5b51b39932e54a1da1f82446458e4b9a"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -962,6 +966,26 @@
 
 {
     "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "5b51b39932e54a1da1f82446458e4b9a",
+    "m_Title": "Why remap",
+    "m_Content": "Sine has a range of -1 to 1. We don't want the effect to flash on and off. Remap lets us take in a minumum and maximum effect value and set that to our sine min and max.",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": -1050.0,
+        "y": 324.5,
+        "width": 192.5,
+        "height": 128.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
+}
+
+{
+    "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.BlockNode",
     "m_ObjectId": "5c8e370de1674be896ed79f011bbb658",
     "m_Group": {
@@ -1309,7 +1333,7 @@
     ],
     "synonyms": [],
     "m_Precision": 0,
-    "m_PreviewExpanded": true,
+    "m_PreviewExpanded": false,
     "m_PreviewMode": 0,
     "m_CustomColors": {
         "m_SerializableColors": []
