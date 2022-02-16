@@ -53,7 +53,7 @@ Since I now have a basic understanding of shader graphs, I'm going to try this o
 ## 5 - Ocean
 ## Resources
 - [Oceans with Unity Shader Graph.](https://youtu.be/kgXeo2SRDd4)
-- [MESH GENERATION in Unity - Basics](https://youtu.be/eJEpeUH1EMg)
+eJEpeUH1EMg)
 <br></br>
 ## Misc. Notes
 - Organization
