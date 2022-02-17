@@ -13,9 +13,8 @@ This repository contains practice projects for learning Unity. Files range from 
   - [Author](#author)
 
 ## Current Goals
-1. Creating sample shader graphs
-2. Creating an augmented reality [slingshot game](0x0C-unity-ar_slingshot_game)
-3. Reviewing old projects and tracking [accessibility issues](https://github.com/aleiadevore/holbertonschool-unity/projects/1)
+1. Creating an augmented reality [slingshot game](0x0C-unity-ar_slingshot_game)
+2. Reviewing old projects and tracking [accessibility issues](https://github.com/aleiadevore/holbertonschool-unity/projects/1)
 
 ## Projects
 ### Unity Concepts
