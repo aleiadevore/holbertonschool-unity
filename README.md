@@ -9,6 +9,7 @@ This repository contains practice projects for learning Unity. Files range from 
     - [Platformer Game](#platformer-game)
     - [Augmented Reality](#augmented-reality)
     - [Virtual Reality](#virtual-reality)
+    - [Shader Graphs](#shader-graphs)
   - [Author](#author)
 
 ## Current Goals
@@ -36,6 +37,9 @@ This repository contains practice projects for learning Unity. Files range from 
 ![Screenshot of VR escape room. A saber coming from a hand reaches towards a flashlight. The background is a sci-fi room with large boxes.](images/vr_room_grab.png)
 - **[360 Video](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x0A-unity-360_video_tour)** - A 360 degree video tour built for Oculus Quest
 - **[VR Escape Room](https://github.com/aleiadevore/holbertonschool-unity/tree/main/0x0B-unity-vr_room)** - Virtual reality escape room for Oculus Quest
+### Shader Graphs
+![Gif of all shader graphs in use. At the bottom of the screen, ocean waves roll. Above it are three spheres. The first has a gentle glow. The second has a pulsing glow. The third looks like it is disintigrating. To the top-left of the spheres are two ice cubes. To the right og them are a lavender cube and sphere.](0x0D-unity-shadergraph/Screenshots/all_shaders.gif)
+- **[Unity Shader Graphs](0x0D-unity-shadergraph)** - A collection of shader graphs with a downloadable asset package
 
 ## Author
 Aleia DeVore is a software engineer completing the Augmented Reality/Virtual Reality specialization at Holberton School Tulsa. Her interests include the gamification of daily tasks, organizational tools, and educational tools. When she's not coding, Aleia enjoys crafting and collecting new hobbies.
