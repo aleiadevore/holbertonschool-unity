@@ -15,7 +15,7 @@ This directory contains custom shader graphs, including:
 Notes for creating each shader graph can be found [here](notes.md).
 
 ## Download
-The asset package for all shaders can be downloaded [here](Assets/0x0D-unity-shaders.unitypackage)
+The asset package for all shaders can be downloaded [here]([Assets/0x0D-unity-shaders.unitypackage](https://drive.google.com/file/d/1NgokRMcw4JfgB84asMzuv1xTLwqqnWM0/view?usp=sharing))
 
 
 ## Assets
