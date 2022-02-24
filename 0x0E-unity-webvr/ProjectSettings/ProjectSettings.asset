@@ -128,9 +128,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets:
-  - {fileID: 6345207012332550826, guid: f504a4067b4dc40febacdb0e3f53c4f6, type: 2}
-  - {fileID: 11400000, guid: 1ef8391f6d6c14072b93dc0433bb3c06, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -330,7 +328,9 @@ PlayerSettings:
   openGLRequireES31: 0
   openGLRequireES31AEP: 0
   openGLRequireES32: 0
-  m_TemplateCustomTags: {}
+  m_TemplateCustomTags:
+    DESCRIPTION: Simple VR scene
+    WEBXR_POLYFILL_CONFIG: 
   mobileMTRendering:
     Android: 1
     iPhone: 1
@@ -575,7 +575,7 @@ PlayerSettings:
   webGLDebugSymbols: 0
   webGLEmscriptenArgs: 
   webGLModulesDirectory: 
-  webGLTemplate: PROJECT:WebXR
+  webGLTemplate: PROJECT:WebXR2020
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
   webGLCompressionFormat: 0
@@ -583,7 +583,8 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 1
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    13: POSEIDON;JUPITER;TEXTURE_GRAPH;TG_SEARCHER;GRIFFIN;GRIFFIN_2021
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}
